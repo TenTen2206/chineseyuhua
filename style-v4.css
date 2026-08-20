@@ -266,3 +266,12 @@ button{font:inherit;border:0;border-radius:12px;padding:11px 15px;font-weight:75
   border:1px solid #fed7aa;
   font-weight:700;
 }
+
+/* v15 clearer audio button */
+.speak{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:6px;
+  min-width:44px;
+}
