@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>HSK 3 Learning Hub v16</title>
+  <title>YuHua Chinese HSK Learning Hub v17</title>
   <link rel="stylesheet" href="style-v4.css">
 </head>
 <body>
@@ -20,8 +20,9 @@
       <div class="kicker">YuHua Chinese</div>
       <h2>Wings to the World of Chinese</h2>
       <p>
-        <b>HSK 3.0 – học từ vựng, bài khóa và luyện tập theo từng bài.</b>
-        Học theo tiến trình rõ ràng: học từ mới → đọc bài khóa → luyện tập → kiểm tra cuối bài.
+        <b>Hệ thống ôn tập HSK từ cấp 1 đến cấp 6.</b>
+        Chọn trình độ phù hợp để học từ vựng, bài khóa và luyện tập theo từng bài.
+        Hiện tại <b>HSK 3</b> đã có đầy đủ nội dung và bài tập đã nhập.
       </p>
       <div class="hero-tags">
         <span>HSK 3.0</span>
@@ -38,15 +39,37 @@
 
   <div class="toolbar"><input id="globalSearch" placeholder="Tìm chữ Hán, pinyin hoặc nghĩa tiếng Việt..."><button id="clearSearch" class="ghost">Xóa</button></div>
   <div id="searchResults" class="search-results hidden"></div>
-  <div class="home-progress">
-    <div>
-      <div class="kicker">Tiến độ của bạn</div>
-      <h3 id="overallProgressText">0% hoàn thành</h3>
+  <section class="level-section">
+    <div class="section-head">
+      <div>
+        <div class="kicker">Chọn trình độ</div>
+        <h2>HSK 1 – HSK 6</h2>
+      </div>
     </div>
-    <div class="progress-track"><div id="overallProgressBar" class="progress-bar"></div></div>
-    <button id="resetProgressBtn" class="ghost">Đặt lại tiến độ</button>
-  </div>
-  <h2>Các bài HSK 3</h2><div id="lessonGrid" class="lesson-grid"></div>
+    <div id="levelGrid" class="level-grid"></div>
+  </section>
+
+  <section id="selectedLevelPanel" class="selected-level-panel">
+    <div class="level-panel-head">
+      <div>
+        <div class="kicker" id="selectedLevelKicker">Trình độ đang chọn</div>
+        <h2 id="selectedLevelTitle">HSK 3</h2>
+        <p id="selectedLevelDesc" class="muted"></p>
+      </div>
+      <span id="selectedLevelStatus" class="badge complete">✓ Đã có nội dung</span>
+    </div>
+
+    <div id="hsk3ProgressWrap" class="home-progress">
+      <div>
+        <div class="kicker">Tiến độ HSK 3 của bạn</div>
+        <h3 id="overallProgressText">0% hoàn thành</h3>
+      </div>
+      <div class="progress-track"><div id="overallProgressBar" class="progress-bar"></div></div>
+      <button id="resetProgressBtn" class="ghost">Đặt lại tiến độ</button>
+    </div>
+
+    <div id="levelContent"></div>
+  </section>
 </section>
 <section id="lesson" class="view">
   <button class="back" id="backBtn">← HSK 3 / Các bài</button>
@@ -83,5 +106,5 @@
 </main>
 <footer>YuHua Chinese • Wings to the World of Chinese</footer>
 <script src="https://cdn.jsdelivr.net/npm/pinyin-pro@3.18.2/dist/index.js"></script>
-<script src="data-v4.js"></script><script src="app-v16.js"></script>
+<script src="data-v4.js"></script><script src="app-v17.js"></script>
 </body></html>

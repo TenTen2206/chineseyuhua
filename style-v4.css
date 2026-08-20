@@ -353,3 +353,56 @@ button{font:inherit;border:0;border-radius:12px;padding:11px 15px;font-weight:75
   .memory-buttons{grid-template-columns:1fr}
   .text-actions{justify-content:flex-start}
 }
+
+
+/* v17 HSK 1–6 level navigation */
+.level-section{margin:24px 0}
+.section-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:12px}
+.level-grid{display:grid;grid-template-columns:repeat(6,minmax(120px,1fr));gap:12px}
+.level-card{
+  display:flex;align-items:center;gap:12px;text-align:left;
+  padding:16px;border:1px solid var(--line);border-radius:18px;background:#fff;
+  position:relative;transition:.2s ease
+}
+.level-card:hover{transform:translateY(-2px);border-color:#f2a181}
+.level-card.active{border-color:#ef5b24;box-shadow:0 0 0 2px rgba(239,91,36,.08)}
+.level-card.ready{background:linear-gradient(180deg,#fff,#fffaf7)}
+.level-number{
+  width:42px;height:42px;border-radius:14px;display:grid;place-items:center;
+  background:#f3f4f6;font-size:20px;font-weight:900
+}
+.level-card.active .level-number{background:#ef5b24;color:#fff}
+.level-card-body{display:flex;flex-direction:column;gap:3px}
+.level-card-body b{font-size:16px}
+.level-card-body small{color:var(--muted)}
+.level-status-dot{
+  width:9px;height:9px;border-radius:50%;background:#d1d5db;
+  position:absolute;top:12px;right:12px
+}
+.level-card.ready .level-status-dot{background:#22c55e}
+.selected-level-panel{margin-top:24px}
+.level-panel-head{
+  display:flex;justify-content:space-between;gap:20px;align-items:flex-start;
+  margin-bottom:16px
+}
+.level-panel-head h2{margin:4px 0 6px}
+.lesson-heading{margin:26px 0 14px}
+.coming-level{
+  background:#fff;border:1px dashed #d1d5db;border-radius:20px;
+  text-align:center;padding:42px 24px;margin-top:16px
+}
+.coming-icon{font-size:42px;margin-bottom:8px}
+.coming-level h3{margin:8px 0}
+.coming-level p{max-width:640px;margin:0 auto;color:var(--muted);line-height:1.7}
+.coming-note{
+  max-width:680px;margin:18px auto 0;padding:12px 14px;border-radius:12px;
+  background:#f8fafc;color:#64748b;font-size:14px;line-height:1.6
+}
+
+@media(max-width:1000px){
+  .level-grid{grid-template-columns:repeat(3,1fr)}
+}
+@media(max-width:620px){
+  .level-grid{grid-template-columns:repeat(2,1fr)}
+  .level-panel-head{flex-direction:column}
+}
