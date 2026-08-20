@@ -1,31 +1,31 @@
-# YuHua Chinese — HSK Learning Hub v17
+# YuHua Chinese — HSK Learning Hub v19
 
-Bản v17 bổ sung khung trình độ HSK 1 đến HSK 6.
+Trang chủ mới gồm 3 mục chính:
 
-## Trạng thái nội dung
-- HSK 1: đã tạo mục, chưa có dữ liệu nguồn
-- HSK 2: đã tạo mục, chưa có dữ liệu nguồn
-- HSK 3: giữ nguyên toàn bộ nội dung và bài tập đã nhập
-- HSK 4: đã tạo mục, chưa có dữ liệu nguồn
-- HSK 5: đã tạo mục, chưa có dữ liệu nguồn
-- HSK 6: đã tạo mục, chưa có dữ liệu nguồn
+1. Thông tin giáo viên
+2. Thông tin lớp học
+3. Ôn tập bài học
 
-## HSK 3 hiện có
-- từ vựng + ví dụ
-- bài khóa
-- hiện/ẩn pinyin
-- âm thanh 2 tốc độ
-- flashcard Nhớ rồi / Chưa nhớ
-- dịch câu và so sánh đáp án gợi ý
-- điền từ
-- mini quiz cuối bài
-- lưu tiến độ bằng localStorage
+Khi bấm **Ôn tập bài học**, website mới hiển thị:
+- HSK 1
+- HSK 2
+- HSK 3
+- HSK 4
+- HSK 5
+- HSK 6
 
-Website không tự tạo nội dung HSK 1/2/4/5/6 khi chưa có dữ liệu nguồn, để tránh sai lệch so với giáo trình.
+HSK 3 giữ nguyên toàn bộ bài học và bài tập trước đó.
 
 ## File upload GitHub
 - index.html
 - style-v4.css
 - data-v4.js
-- app-v17.js
+- app-v19.js
 - hero-yuhua.png
+
+## Chỉnh nội dung giáo viên/lớp học
+Có thể chỉnh trực tiếp các hàm:
+- renderHomeTeacher()
+- renderHomeClass()
+
+trong file app-v19.js.

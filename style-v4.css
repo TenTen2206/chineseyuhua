@@ -406,3 +406,145 @@ button{font:inherit;border:0;border-radius:12px;padding:11px 15px;font-weight:75
   .level-grid{grid-template-columns:repeat(2,1fr)}
   .level-panel-head{flex-direction:column}
 }
+
+/* v18 simplified HSK level cards */
+.level-card{
+  justify-content:center;
+  text-align:center;
+  min-height:88px;
+}
+.level-card-body{
+  display:block;
+}
+.level-card-body b{
+  font-size:18px;
+}
+.level-status-dot,
+.level-card-body small{
+  display:none !important;
+}
+.simple-placeholder{
+  min-height:180px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
+
+/* v19 home dashboard */
+.home-dashboard-section{margin:26px 0}
+.home-dashboard-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:16px;
+}
+.home-info-card{
+  min-height:170px;
+  border:1px solid var(--line);
+  border-radius:22px;
+  background:#fff;
+  padding:22px;
+  display:grid;
+  grid-template-columns:auto 1fr auto;
+  align-items:center;
+  gap:16px;
+  text-align:left;
+  transition:.2s ease;
+}
+.home-info-card:hover{
+  transform:translateY(-3px);
+  border-color:#f2a181;
+  box-shadow:0 12px 28px rgba(15,23,42,.07);
+}
+.home-info-icon{
+  width:58px;
+  height:58px;
+  border-radius:18px;
+  display:grid;
+  place-items:center;
+  font-size:30px;
+  background:#fff7ed;
+}
+.home-info-card h3{margin:0 0 6px;font-size:20px}
+.home-info-card p{margin:0;color:var(--muted);line-height:1.55}
+.home-info-arrow{
+  font-size:24px;
+  color:#ef5b24;
+  font-weight:900;
+}
+.teacher-card{background:linear-gradient(180deg,#fff,#fffaf7)}
+.class-card{background:linear-gradient(180deg,#fff,#f8fbff)}
+.review-card{background:linear-gradient(180deg,#fff,#f7fff9)}
+
+.home-panel{
+  margin-top:20px;
+  scroll-margin-top:20px;
+}
+.home-panel-card{
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:24px;
+  padding:24px;
+}
+.panel-title-row{
+  display:flex;
+  justify-content:space-between;
+  gap:20px;
+  align-items:flex-start;
+  margin-bottom:18px;
+}
+.panel-title-row h2{margin:4px 0 0}
+
+.teacher-profile{
+  display:grid;
+  grid-template-columns:auto 1fr;
+  gap:18px;
+  align-items:start;
+}
+.teacher-avatar{
+  width:90px;
+  height:90px;
+  border-radius:24px;
+  display:grid;
+  place-items:center;
+  font-size:46px;
+  background:#fff7ed;
+}
+.teacher-details h3{margin:0 0 4px;font-size:24px}
+.teacher-details p{margin:0 0 14px;color:var(--muted)}
+.info-note{
+  padding:12px 14px;
+  border-radius:12px;
+  background:#f8fafc;
+  color:#64748b;
+  line-height:1.6;
+}
+
+.class-info-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:14px;
+}
+.class-info-item{
+  border:1px solid var(--line);
+  border-radius:16px;
+  padding:16px;
+  display:flex;
+  gap:12px;
+  align-items:flex-start;
+}
+.class-info-item>span{font-size:26px}
+.class-info-item b{display:block;margin-bottom:4px}
+.class-info-item p{margin:0;color:var(--muted);line-height:1.55}
+
+.review-level-grid{margin-bottom:18px}
+
+@media(max-width:900px){
+  .home-dashboard-grid{grid-template-columns:1fr}
+  .class-info-grid{grid-template-columns:1fr}
+}
+@media(max-width:560px){
+  .home-info-card{grid-template-columns:auto 1fr}
+  .home-info-arrow{display:none}
+  .teacher-profile{grid-template-columns:1fr}
+}
