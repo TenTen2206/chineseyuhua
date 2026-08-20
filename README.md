@@ -1,28 +1,24 @@
-# YuHua Chinese — HSK 3 Learning Hub v12 (không đăng nhập)
+# YuHua Chinese — HSK 3 Learning Hub v13
 
-Bản này KHÔNG yêu cầu đăng nhập hoặc đăng ký tài khoản.
+Bản sạch giao diện, không yêu cầu đăng nhập.
 
-## Chức năng giữ nguyên
+## Chức năng
 - 18 bài HSK 3
 - Từ vựng
 - Bài khóa
 - Flashcard lật thẻ
 - Dịch câu dài Việt → Trung
-- AI chấm & nhận xét qua Cloudflare Worker
-- Bài tập điền từ theo bài khóa
+- AI chấm & nhận xét
+- Bài tập điền từ
 - Hình ảnh YuHua Chinese trên trang chủ
 
 ## AI endpoint
-Website đã nối sẵn:
 https://yuhua.vukimtien98.workers.dev
 
 ## File cần upload lên GitHub
 - index.html
 - style-v4.css
 - data-v4.js
-- app-v12.js
+- app-v13.js
 - ai-config.js
 - hero-yuhua.png
-- README.md
-
-Upload vào thư mục gốc repository rồi Commit changes.
