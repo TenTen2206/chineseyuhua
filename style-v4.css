@@ -198,3 +198,71 @@ button{font:inherit;border:0;border-radius:12px;padding:11px 15px;font-weight:75
 @media(max-width:900px){
   .home-hero{grid-template-columns:1fr}
 }
+
+/* v14 Translation comparison without AI */
+.comparison-result{
+  margin-top:18px;
+  display:grid;
+  gap:14px;
+}
+.comparison-card{
+  border:1px solid var(--line);
+  border-radius:16px;
+  padding:16px;
+  background:#fff;
+}
+.comparison-title{
+  font-size:13px;
+  font-weight:850;
+  color:var(--muted);
+  text-transform:uppercase;
+  letter-spacing:.05em;
+  margin-bottom:10px;
+}
+.comparison-line{
+  font-size:22px;
+  line-height:1.9;
+  word-break:break-word;
+}
+.diff-match{
+  color:#111827;
+  font-weight:700;
+}
+.diff-mismatch{
+  color:#dc2626;
+  font-weight:800;
+}
+.comparison-legend{
+  display:flex;
+  gap:18px;
+  flex-wrap:wrap;
+  font-size:14px;
+  color:#475569;
+}
+.comparison-legend span{
+  display:inline-flex;
+  align-items:center;
+  gap:7px;
+}
+.legend-dot{
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  display:inline-block;
+}
+.legend-dot.black{background:#111827}
+.legend-dot.red{background:#dc2626}
+.comparison-score{
+  padding:12px 14px;
+  border-radius:12px;
+  background:#f8fafc;
+  border:1px solid var(--line);
+}
+.comparison-warning{
+  padding:14px;
+  border-radius:12px;
+  background:#fff7ed;
+  color:#9a3412;
+  border:1px solid #fed7aa;
+  font-weight:700;
+}
