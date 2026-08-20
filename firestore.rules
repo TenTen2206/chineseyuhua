@@ -1,0 +1,53 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    function myUserDoc() {
+      return get(/databases/$(database)/documents/users/$(request.auth.uid));
+    }
+
+    function isTeacher() {
+      return signedIn() && myUserDoc().data.role == "teacher";
+    }
+
+    function isActive() {
+      return signedIn() && myUserDoc().data.status == "active";
+    }
+
+    match /users/{userId} {
+      // A student may create only their own student profile.
+      allow create: if signedIn()
+                    && request.auth.uid == userId
+                    && request.resource.data.role == "student"
+                    && request.resource.data.status == "active";
+
+      // A student can read their own profile; a teacher can read all profiles.
+      allow read: if signedIn()
+                  && (request.auth.uid == userId || isTeacher());
+
+      // Students may update their own profile/progress, but cannot change role/status/email.
+      allow update: if signedIn()
+                    && request.auth.uid == userId
+                    && resource.data.role == request.resource.data.role
+                    && resource.data.status == request.resource.data.status
+                    && resource.data.email == request.resource.data.email;
+
+      // Teachers can update user records, including status and role.
+      allow update: if isTeacher();
+
+      // Only teachers can delete user profile documents.
+      allow delete: if isTeacher();
+    }
+
+    // Optional per-user learning activity collection.
+    match /users/{userId}/activity/{activityId} {
+      allow create, read: if signedIn()
+                          && (request.auth.uid == userId || isTeacher());
+      allow update, delete: if isTeacher();
+    }
+  }
+}

@@ -1,4 +1,4 @@
-# YuHua Chinese — HSK 3 Learning Hub v10
+# YuHua Chinese — HSK 3 Learning Hub v11
 
 Bản này đã sẵn sàng upload trực tiếp lên GitHub Pages.
 
@@ -6,7 +6,7 @@ Bản này đã sẵn sàng upload trực tiếp lên GitHub Pages.
 - index.html
 - style-v4.css
 - data-v4.js
-- app-v10.js
+- app-v11.js
 - ai-config.js
 - hero-yuhua.png
 
@@ -23,3 +23,7 @@ Upload các file vào thư mục gốc repository, sau đó:
 Settings → Pages → Deploy from a branch → main → /(root)
 
 Sau khi commit, chờ deploy và hard refresh trình duyệt.
+
+
+## v11 Authentication
+See `FIREBASE_SETUP.md` for Firebase Authentication and Firestore setup.
