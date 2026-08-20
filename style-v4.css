@@ -653,3 +653,59 @@ button{font:inherit;border:0;border-radius:12px;padding:11px 15px;font-weight:75
     aspect-ratio:1.2 / 1 !important;
   }
 }
+
+/* v22 HSK2 */
+.grammar-mini{
+  display:flex;
+  flex-wrap:wrap;
+  gap:5px;
+  margin-top:10px;
+}
+.grammar-mini span{
+  font-size:11px;
+  color:#9a3412;
+  background:#fff7ed;
+  border:1px solid #fed7aa;
+  padding:4px 7px;
+  border-radius:999px;
+}
+.grammar-list{
+  display:grid;
+  gap:12px;
+  margin-top:16px;
+}
+.grammar-item{
+  display:flex;
+  gap:12px;
+  align-items:center;
+  border:1px solid var(--line);
+  border-radius:14px;
+  padding:14px 16px;
+  background:#fff;
+}
+.grammar-num{
+  width:30px;
+  height:30px;
+  flex:0 0 30px;
+  display:grid;
+  place-items:center;
+  border-radius:50%;
+  background:#fff7ed;
+  color:#ea580c;
+  font-weight:900;
+}
+.source-note-compact{
+  margin-top:16px;
+  padding:11px 13px;
+  border-radius:12px;
+  background:#f8fafc;
+  color:#64748b;
+  font-size:13px;
+}
+.hsk2-source-meta{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  flex-wrap:wrap;
+  margin-top:10px;
+}
