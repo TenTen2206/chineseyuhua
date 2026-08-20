@@ -592,3 +592,64 @@ button{font:inherit;border:0;border-radius:12px;padding:11px 15px;font-weight:75
   .chibi-dashboard{grid-template-columns:1fr}
   .chibi-card-image{aspect-ratio:1.7/1}
 }
+
+
+/* v21 smaller homepage cards */
+.home-dashboard-grid.chibi-dashboard{
+  display:grid !important;
+  grid-template-columns:repeat(3, minmax(220px, 300px)) !important;
+  justify-content:center !important;
+  gap:18px !important;
+  align-items:start !important;
+}
+.home-info-card.chibi-card{
+  display:flex !important;
+  flex-direction:column !important;
+  align-items:stretch !important;
+  justify-content:flex-start !important;
+  padding:0 !important;
+  min-height:0 !important;
+  max-width:300px !important;
+  width:100% !important;
+  margin:0 auto !important;
+  overflow:hidden !important;
+  border-radius:22px !important;
+  background:#fff !important;
+  border:1px solid var(--line) !important;
+  text-align:center !important;
+}
+.home-info-card.chibi-card > *{
+  grid-column:auto !important;
+}
+.chibi-card-image{
+  width:100% !important;
+  aspect-ratio:1 / 1 !important;
+  object-fit:contain !important;
+  display:block !important;
+  background:#fff !important;
+  padding:8px !important;
+}
+.chibi-card-label{
+  display:block !important;
+  width:100% !important;
+  padding:12px 10px 14px !important;
+  background:#fff !important;
+  color:#111827 !important;
+  font-size:16px !important;
+  line-height:1.3 !important;
+  font-weight:800 !important;
+  border-top:1px solid #f1f5f9 !important;
+}
+@media(max-width:1100px){
+  .home-dashboard-grid.chibi-dashboard{
+    grid-template-columns:repeat(2, minmax(220px, 300px)) !important;
+  }
+}
+@media(max-width:700px){
+  .home-dashboard-grid.chibi-dashboard{
+    grid-template-columns:minmax(220px, 320px) !important;
+  }
+  .chibi-card-image{
+    aspect-ratio:1.2 / 1 !important;
+  }
+}

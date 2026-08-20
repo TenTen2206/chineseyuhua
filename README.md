@@ -1,19 +1,12 @@
-# YuHua Chinese — HSK Learning Hub v20
+# YuHua Chinese — HSK Learning Hub v21
 
-Trang chủ đã thay 3 ô chức năng bằng hình chibi dễ thương.
-
-Bên dưới mỗi hình chỉ có đúng tên:
-1. Thông tin giáo viên
-2. Thông tin lớp học
-3. Ôn tập bài học
-
-Khi bấm Ôn tập bài học, HSK 1–HSK 6 vẫn hiện như bản trước.
+Bản v21 thu nhỏ 3 thẻ hình chibi trên trang chủ để gọn hơn và hiển thị đúng bố cục.
 
 ## File upload GitHub
 - index.html
 - style-v4.css
 - data-v4.js
-- app-v20.js
+- app-v21.js
 - hero-yuhua.png
 - chibi-teacher.png
 - chibi-class.png
