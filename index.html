@@ -3,30 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>HSK 3 Learning Hub v11</title>
+  <title>HSK 3 Learning Hub v12</title>
   <link rel="stylesheet" href="style-v4.css">
 </head>
 <body>
 <header class="top">
   <div><div class="kicker">新HSK教程 3 • HSK 3.0</div><h1>HSK 3 Learning Hub</h1>
   <p>18 bài • Từ vựng • 4 bài khóa • Flashcard lật thẻ • Dịch câu dài • Điền từ</p></div>
-  
-  <div class="header-account">
-    <div id="guestActions" class="account-actions">
-      <button class="account-btn ghost" onclick="openAuthModal('login')">Đăng nhập</button>
-      <button class="account-btn primary" onclick="openAuthModal('register')">Đăng ký</button>
-    </div>
-    <div id="userActions" class="account-actions hidden">
-      <div class="user-chip">
-        <span class="avatar-circle">👤</span>
-        <span><b id="currentUserName">Học sinh</b><small id="currentUserRole"></small></span>
-      </div>
-      <button id="teacherDashboardBtn" class="account-btn teacher hidden" onclick="openTeacherDashboard()">Quản lý học sinh</button>
-      <button id="logoutBtn" class="account-btn ghost">Đăng xuất</button>
-    </div>
-    <div class="stat" id="globalStat"></div>
-  </div>
-
+  <div class="stat" id="globalStat"></div>
 </header>
 <main>
 <section id="home" class="view active">
@@ -72,58 +56,7 @@
   </div>
   <div id="moduleContent" class="content-card"></div>
 </section>
-
-<div id="accountBlockedBanner" class="blocked-banner hidden">
-  Tài khoản này đã bị khóa. Vui lòng liên hệ giáo viên.
-</div>
-
-<div id="authModal" class="modal-backdrop hidden">
-  <div class="auth-modal" role="dialog" aria-modal="true">
-    <button class="modal-close" onclick="closeAuthModal()">×</button>
-    <div class="auth-brand">YuHua Chinese</div>
-    <h2>Tài khoản học sinh</h2>
-
-    <div class="auth-tabs">
-      <button id="loginTab" class="auth-tab active" onclick="setAuthTab('login')">Đăng nhập</button>
-      <button id="registerTab" class="auth-tab" onclick="setAuthTab('register')">Đăng ký</button>
-    </div>
-
-    <form id="loginForm" class="auth-form">
-      <label>Email<input id="loginEmail" type="email" required autocomplete="email" placeholder="student@example.com"></label>
-      <label>Mật khẩu<input id="loginPassword" type="password" required minlength="6" autocomplete="current-password"></label>
-      <button class="primary auth-submit" type="submit">Đăng nhập</button>
-    </form>
-
-    <form id="registerForm" class="auth-form hidden">
-      <label>Họ và tên<input id="registerName" type="text" required minlength="2" placeholder="Nguyễn Văn A"></label>
-      <label>Email<input id="registerEmail" type="email" required autocomplete="email" placeholder="student@example.com"></label>
-      <label>Mật khẩu<input id="registerPassword" type="password" required minlength="6" autocomplete="new-password"></label>
-      <label>Xác nhận mật khẩu<input id="registerConfirm" type="password" required minlength="6" autocomplete="new-password"></label>
-      <button class="primary auth-submit" type="submit">Tạo tài khoản</button>
-    </form>
-
-    <div id="authMessage" class="auth-message"></div>
-  </div>
-</div>
-
-<div id="teacherDashboard" class="modal-backdrop hidden">
-  <div class="teacher-modal">
-    <div class="teacher-head">
-      <div><div class="auth-brand">YuHua Chinese</div><h2>Quản lý học sinh</h2></div>
-      <button class="modal-close static" onclick="closeTeacherDashboard()">×</button>
-    </div>
-    <p class="muted">Theo dõi tài khoản, bài học gần nhất và khóa/mở khóa học sinh.</p>
-    <div class="teacher-table-wrap">
-      <table class="teacher-table">
-        <thead><tr><th>Họ tên</th><th>Email</th><th>Vai trò</th><th>Trạng thái</th><th>Hoạt động gần nhất</th><th>Thao tác</th></tr></thead>
-        <tbody id="teacherUsersBody"></tbody>
-      </table>
-    </div>
-    <div class="teacher-note">Để cấp quyền giáo viên cho tài khoản đầu tiên, đổi trường <code>role</code> của tài khoản đó thành <code>teacher</code> trực tiếp trong Firebase Console → Firestore → users.</div>
-  </div>
-</div>
-
 </main>
-<footer>HSK 3 Learning Hub v11 • GitHub Pages</footer>
-<script src="data-v4.js"></script><script src="ai-config.js"></script><script src="firebase-config.js"></script><script type="module" src="auth-v11.js"></script><script src="app-v11.js"></script>
+<footer>HSK 3 Learning Hub v12 • GitHub Pages</footer>
+<script src="data-v4.js"></script><script src="ai-config.js"></script><script src="app-v12.js"></script>
 </body></html>
