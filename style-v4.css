@@ -275,3 +275,81 @@ button{font:inherit;border:0;border-radius:12px;padding:11px 15px;font-weight:75
   gap:6px;
   min-width:44px;
 }
+
+
+/* v16 learning flow + progress */
+.home-progress,.lesson-progress-box{
+  background:#fff;border:1px solid var(--line);border-radius:18px;padding:16px;
+}
+.home-progress{display:grid;grid-template-columns:auto 1fr auto;gap:18px;align-items:center;margin:18px 0 24px}
+.home-progress h3{margin:4px 0 0}
+.progress-track{height:10px;background:#eef1f5;border-radius:999px;overflow:hidden;min-width:160px}
+.progress-track.small{height:7px;min-width:0;flex:1}
+.progress-bar{height:100%;width:0;background:linear-gradient(90deg,#ef5b24,#ff9b72);border-radius:999px;transition:width .3s ease}
+.lesson-progress-mini{display:flex;align-items:center;gap:8px;margin-top:14px;font-size:12px;font-weight:800;color:#6b7280}
+.lesson-progress-box{margin-top:12px;max-width:520px}
+.lesson-progress-box span{display:block;margin-bottom:8px}
+.learning-step{margin:18px 0}
+.step-label{display:flex;align-items:center;gap:12px;margin:8px 0 10px}
+.step-label>span{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:var(--o);color:#fff;font-weight:900}
+.step-label div{display:flex;flex-direction:column;gap:3px}
+.step-label small{color:var(--muted)}
+.step-grid{margin:0}
+.module-card{position:relative}
+.module-card.module-done{border-color:#86efac;background:#f7fff9}
+.module-check{font-style:normal;font-size:11px;color:#166534;background:#dcfce7;border-radius:999px;padding:4px 7px;position:absolute;top:10px;right:10px}
+.done-btn{background:#dcfce7;color:#166534;border:1px solid #86efac}
+
+/* rich vocabulary */
+.word-row.vocab-rich{grid-template-columns:45px 130px 150px 1fr auto;align-items:start}
+.word-example{grid-column:2/-1;background:#fffaf7;border-radius:10px;padding:9px 12px;line-height:1.65;color:#475569}
+.audio-pair{display:flex;gap:6px;flex-wrap:wrap}
+.audio-pair.center{justify-content:center}
+.speak.mini{padding:8px 9px;font-size:12px;white-space:nowrap}
+
+/* text pinyin */
+.text-actions{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+.pinyin-block{margin:14px 0;background:#f8fafc;border:1px solid var(--line);border-radius:14px;padding:16px}
+.pinyin-line{font-size:16px;line-height:2;color:#b64014}
+
+/* flashcard memory */
+.memory-summary{display:flex;gap:10px;flex-wrap:wrap;margin:12px 0}
+.memory-summary span{padding:7px 10px;border-radius:999px;background:#f3f4f6;font-size:13px;font-weight:800}
+.memory-good{color:#166534!important;background:#dcfce7!important}
+.memory-bad{color:#b91c1c!important;background:#fee2e2!important}
+.memory-buttons{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:12px 0}
+.remember-btn{background:#16a34a;color:#fff}
+.forget-btn{background:#ef4444;color:#fff}
+
+/* translation grouped difference */
+.red-note{color:#dc2626}
+.diff-match,.diff-mismatch{display:inline;padding:2px 0}
+.diff-mismatch{background:#fef2f2;border-radius:4px}
+.answer-card{background:#fafafa}
+.translation-caution{padding:12px 14px;background:#fff7ed;color:#9a3412;border:1px solid #fed7aa;border-radius:12px;line-height:1.6}
+
+/* mini quiz */
+.quiz-list{display:grid;gap:14px;margin:18px 0}
+.quiz-q{border:1px solid var(--line);border-radius:16px;padding:16px;background:#fff}
+.quiz-number{font-size:12px;font-weight:900;color:var(--o);margin-bottom:6px}
+.quiz-prompt{font-size:17px;font-weight:750;line-height:1.6;margin-bottom:12px}
+.quiz-choices{display:grid;gap:8px}
+.quiz-choice{display:flex;align-items:center;gap:10px;border:1px solid var(--line);border-radius:12px;padding:10px 12px;cursor:pointer}
+.quiz-choice input{width:auto;margin:0}
+.quiz-choice:hover{border-color:#f2a181;background:#fffaf7}
+.quiz-correct{border-color:#86efac;background:#f0fdf4}
+.quiz-wrong{border-color:#fca5a5;background:#fef2f2}
+.quiz-answer{margin-top:10px;color:#166534;font-weight:800}
+.quiz-result-box{margin-top:16px;padding:16px;border-radius:14px;background:#f8fafc;border:1px solid var(--line);line-height:1.7}
+.empty-state{padding:24px;text-align:center;color:var(--muted);background:#f8fafc;border-radius:14px}
+
+@media(max-width:900px){
+  .home-progress{grid-template-columns:1fr}
+  .word-row.vocab-rich{grid-template-columns:40px 1fr 1fr}
+  .word-example{grid-column:2/4}
+  .audio-pair{grid-column:2/4}
+}
+@media(max-width:560px){
+  .memory-buttons{grid-template-columns:1fr}
+  .text-actions{justify-content:flex-start}
+}

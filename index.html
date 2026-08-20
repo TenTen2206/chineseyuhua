@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>HSK 3 Learning Hub v15</title>
+  <title>HSK 3 Learning Hub v16</title>
   <link rel="stylesheet" href="style-v4.css">
 </head>
 <body>
@@ -20,14 +20,15 @@
       <div class="kicker">YuHua Chinese</div>
       <h2>Wings to the World of Chinese</h2>
       <p>
-        Trang web ôn tập HSK 3 dành cho học sinh với từ vựng, bài khóa, flashcard lật thẻ,
-        dịch câu có AI chấm và bài tập điền từ theo từng bài.
+        <b>HSK 3.0 – học từ vựng, bài khóa và luyện tập theo từng bài.</b>
+        Học theo tiến trình rõ ràng: học từ mới → đọc bài khóa → luyện tập → kiểm tra cuối bài.
       </p>
       <div class="hero-tags">
         <span>HSK 3.0</span>
         <span>18 bài</span>
-        <span>Flashcard</span>
-        <span>AI chấm câu dịch</span>
+        <span>Flashcard tự kiểm tra</span>
+        <span>Mini quiz cuối bài</span>
+        <span>Lưu tiến độ trên máy</span>
       </div>
     </div>
     <div class="hero-image-wrap">
@@ -37,25 +38,50 @@
 
   <div class="toolbar"><input id="globalSearch" placeholder="Tìm chữ Hán, pinyin hoặc nghĩa tiếng Việt..."><button id="clearSearch" class="ghost">Xóa</button></div>
   <div id="searchResults" class="search-results hidden"></div>
+  <div class="home-progress">
+    <div>
+      <div class="kicker">Tiến độ của bạn</div>
+      <h3 id="overallProgressText">0% hoàn thành</h3>
+    </div>
+    <div class="progress-track"><div id="overallProgressBar" class="progress-bar"></div></div>
+    <button id="resetProgressBtn" class="ghost">Đặt lại tiến độ</button>
+  </div>
   <h2>Các bài HSK 3</h2><div id="lessonGrid" class="lesson-grid"></div>
 </section>
 <section id="lesson" class="view">
   <button class="back" id="backBtn">← HSK 3 / Các bài</button>
   <div class="breadcrumb" id="lessonBreadcrumb"></div>
   <div class="lesson-head"><div><div class="kicker" id="lessonNo"></div><h2 id="lessonTitle"></h2><div id="lessonStatus"></div></div></div>
-  <div class="module-grid">
-    <button class="module-card" data-module="vocab"><span>📖</span><b>Từ vựng</b><small>Danh sách + phát âm</small></button>
-    <button class="module-card" data-module="text1"><span>1️⃣</span><b>Bài khóa 1</b><small>课文 1</small></button>
-    <button class="module-card" data-module="text2"><span>2️⃣</span><b>Bài khóa 2</b><small>课文 2</small></button>
-    <button class="module-card" data-module="text3"><span>3️⃣</span><b>Bài khóa 3</b><small>课文 3</small></button>
-    <button class="module-card" data-module="text4"><span>4️⃣</span><b>Bài khóa 4</b><small>课文 4</small></button>
-    <button class="module-card" data-module="review"><span>🃏</span><b>Ôn tập từ vựng</b><small>Flashcard lật thẻ</small></button>
-    <button class="module-card" data-module="translate"><span>✍️</span><b>Dịch câu</b><small>So sánh với đáp án gợi ý</small></button>
-    <button class="module-card" data-module="fill"><span>🧩</span><b>Điền từ</b><small>10 từ / bài khóa</small></button>
+  <div class="learning-step">
+    <div class="step-label"><span>1</span><div><b>Bước 1 – Học từ vựng</b><small>Nắm nghĩa, cách đọc và ví dụ trước khi đọc bài khóa.</small></div></div>
+    <div class="module-grid step-grid">
+      <button class="module-card" data-module="vocab"><span>📖</span><b>Từ vựng</b><small>Nghĩa + ví dụ + 2 tốc độ nghe</small></button>
+    </div>
+  </div>
+
+  <div class="learning-step">
+    <div class="step-label"><span>2</span><div><b>Bước 2 – Đọc bài khóa</b><small>Đọc nội dung, bật/tắt pinyin và luyện nghe.</small></div></div>
+    <div class="module-grid step-grid">
+      <button class="module-card" data-module="text1"><span>1️⃣</span><b>Bài khóa 1</b><small>课文 1</small></button>
+      <button class="module-card" data-module="text2"><span>2️⃣</span><b>Bài khóa 2</b><small>课文 2</small></button>
+      <button class="module-card" data-module="text3"><span>3️⃣</span><b>Bài khóa 3</b><small>课文 3</small></button>
+      <button class="module-card" data-module="text4"><span>4️⃣</span><b>Bài khóa 4</b><small>课文 4</small></button>
+    </div>
+  </div>
+
+  <div class="learning-step">
+    <div class="step-label"><span>3</span><div><b>Bước 3 – Luyện tập & kiểm tra</b><small>Ôn từ, luyện dịch, điền từ và làm mini quiz cuối bài.</small></div></div>
+    <div class="module-grid step-grid">
+      <button class="module-card" data-module="review"><span>🃏</span><b>Ôn tập từ vựng</b><small>Nhớ rồi / Chưa nhớ</small></button>
+      <button class="module-card" data-module="translate"><span>✍️</span><b>Dịch câu</b><small>So sánh với đáp án gợi ý</small></button>
+      <button class="module-card" data-module="fill"><span>🧩</span><b>Điền từ</b><small>10 từ / bài khóa</small></button>
+      <button class="module-card" data-module="quiz"><span>🏁</span><b>Mini quiz cuối bài</b><small>8 câu tổng hợp</small></button>
+    </div>
   </div>
   <div id="moduleContent" class="content-card"></div>
 </section>
 </main>
 <footer>YuHua Chinese • Wings to the World of Chinese</footer>
-<script src="data-v4.js"></script><script src="app-v15.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pinyin-pro@3.18.2/dist/index.js"></script>
+<script src="data-v4.js"></script><script src="app-v16.js"></script>
 </body></html>
