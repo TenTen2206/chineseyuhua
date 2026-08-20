@@ -406,3 +406,26 @@ button{font:inherit;border:0;border-radius:12px;padding:11px 15px;font-weight:75
   .level-grid{grid-template-columns:repeat(2,1fr)}
   .level-panel-head{flex-direction:column}
 }
+
+/* v18 simplified HSK level cards */
+.level-card{
+  justify-content:center;
+  text-align:center;
+  min-height:88px;
+}
+.level-card-body{
+  display:block;
+}
+.level-card-body b{
+  font-size:18px;
+}
+.level-status-dot,
+.level-card-body small{
+  display:none !important;
+}
+.simple-placeholder{
+  min-height:180px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
