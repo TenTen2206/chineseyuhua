@@ -14,3 +14,12 @@ button{font:inherit;border:0;border-radius:12px;padding:11px 15px;font-weight:75
 .gap{display:inline-block;min-width:100px;border-bottom:2px solid var(--o);margin:0 4px;text-align:center;color:#a33;font-weight:800}.answer-bank{padding:14px;background:#f9fafb;border:1px solid var(--line);border-radius:14px;margin:12px 0}.answer-bank span{display:inline-block;padding:5px 9px;margin:4px;border-radius:999px;background:#fff;border:1px solid var(--line)}.gap-inputs{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:18px}.gap-row{display:grid;grid-template-columns:40px 1fr;gap:8px;align-items:center}.gap-num{width:34px;height:34px;border-radius:50%;background:var(--os);display:grid;place-items:center;color:#b64014;font-weight:850}.progress{color:var(--muted);font-size:14px}.hidden{display:none!important}
 .search-results{background:#fff;border:1px solid var(--line);border-radius:18px;padding:14px;margin-bottom:18px}.search-hit{display:grid;grid-template-columns:75px 130px 160px 1fr;gap:12px;padding:11px;border-bottom:1px solid var(--line)}footer{text-align:center;color:var(--muted);padding:30px}
 @media(max-width:900px){.lesson-grid{grid-template-columns:1fr 1fr}.module-grid{grid-template-columns:1fr 1fr}.gap-inputs{grid-template-columns:1fr}.top{flex-direction:column;align-items:flex-start}.word-row{grid-template-columns:40px 1fr 1fr}.vi,.word-row .speak{grid-column:2/4}}@media(max-width:560px){.lesson-grid,.module-grid{grid-template-columns:1fr}.toolbar,.fill-toolbar{flex-direction:column;align-items:stretch}.textbook-text,.fill-passage{font-size:18px;padding:16px}.flash-context{font-size:20px}}
+
+/* v5 vocabulary flipcard */
+.vocab-card{cursor:pointer;text-align:center;transition:transform .18s ease;min-height:360px}
+.vocab-card:hover{transform:translateY(-2px)}
+.flash-label{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:800;margin-bottom:18px}
+.flash-hanzi{font-size:clamp(48px,10vw,84px);font-weight:900;line-height:1.15;margin:16px 0}
+.flash-pinyin{font-size:28px;color:var(--o);font-weight:800;margin:10px 0}
+.flash-meaning{font-size:24px;font-weight:750;line-height:1.5;margin:12px 0 24px}
+.flash-tap{color:var(--muted);margin-top:18px}
