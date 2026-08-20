@@ -87,3 +87,114 @@ button{font:inherit;border:0;border-radius:12px;padding:11px 15px;font-weight:75
 .ai-loading{background:#f5f3ff;color:#5b21b6}
 .ai-warning{background:#fff7ed;color:#9a3412;border:1px solid #fed7aa}
 .ai-error{background:#fef2f2;color:#b91c1c;border:1px solid #fecaca}
+
+/* v7 homepage hero with image */
+.home-hero{
+  display:grid;
+  grid-template-columns:1.1fr .9fr;
+  gap:18px;
+  align-items:center;
+  background:linear-gradient(135deg,#f5fffe,#eaffff 55%,#d4fbfc);
+  border:1px solid #d9f1f2;
+  border-radius:24px;
+  padding:24px;
+  margin:10px 0 20px;
+  overflow:hidden;
+}
+.home-hero h2{
+  font-size:clamp(28px,4vw,40px);
+  margin:4px 0 12px;
+}
+.home-hero p{
+  color:#475569;
+  line-height:1.75;
+  margin:0 0 14px;
+}
+.hero-tags{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+}
+.hero-tags span{
+  display:inline-flex;
+  padding:8px 12px;
+  border-radius:999px;
+  background:#ffffff;
+  border:1px solid #dbeafe;
+  font-weight:750;
+  color:#0f3d52;
+}
+.hero-image-wrap{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.hero-image{
+  width:100%;
+  max-width:520px;
+  border-radius:22px;
+  box-shadow:0 18px 40px rgba(20,104,115,.18);
+  border:1px solid rgba(255,255,255,.75);
+}
+
+/* v7 stronger front/back flashcard */
+.card-stage{
+  perspective:1200px;
+  margin:18px 0 14px;
+}
+.flip-card{
+  width:100%;
+  min-height:380px;
+  cursor:pointer;
+}
+.flip-card-inner{
+  position:relative;
+  width:100%;
+  min-height:380px;
+  transition:transform .65s ease;
+  transform-style:preserve-3d;
+}
+.flip-card.is-flipped .flip-card-inner{
+  transform:rotateY(180deg);
+}
+.flip-face{
+  position:absolute;
+  inset:0;
+  backface-visibility:hidden;
+  -webkit-backface-visibility:hidden;
+  border:1px solid var(--line);
+  border-radius:24px;
+  padding:28px;
+  box-shadow:0 14px 35px rgba(0,0,0,.06);
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  background:#fff;
+}
+.flip-front{
+  background:linear-gradient(180deg,#ffffff 0%,#f8fbff 100%);
+}
+.flip-back{
+  background:linear-gradient(180deg,#f7fffe 0%,#ecfeff 100%);
+  transform:rotateY(180deg);
+}
+.face-help{
+  color:var(--muted);
+  margin-top:14px;
+  font-size:15px;
+}
+.flash-hanzi.small{
+  font-size:clamp(38px,8vw,56px);
+}
+.face-buttons{
+  display:flex;
+  gap:10px;
+  justify-content:center;
+  flex-wrap:wrap;
+  margin-top:6px;
+}
+@media(max-width:900px){
+  .home-hero{grid-template-columns:1fr}
+}
