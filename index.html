@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>YuHua Chinese HSK Learning Hub v22</title>
+  <title>YuHua Chinese HSK Learning Hub v24</title>
   <link rel="stylesheet" href="style-v4.css">
 </head>
 <body>
@@ -49,20 +49,32 @@
       </div>
     </div>
 
-    <div class="home-dashboard-grid chibi-dashboard">
-      <button class="home-info-card chibi-card" onclick="openHomePanel('teacher')">
-        <img src="chibi-teacher.png" alt="Thông tin giáo viên" class="chibi-card-image">
-        <div class="chibi-card-label">Thông tin giáo viên</div>
+    <div class="home-dashboard-grid">
+      <button class="home-info-card teacher-card" onclick="openHomePanel('teacher')">
+        <div class="home-info-icon">👩‍🏫</div>
+        <div>
+          <h3>Thông tin giáo viên</h3>
+          <p>Xem thông tin giáo viên và hướng dẫn học tập.</p>
+        </div>
+        <span class="home-info-arrow">→</span>
       </button>
 
-      <button class="home-info-card chibi-card" onclick="openHomePanel('class')">
-        <img src="chibi-class.png" alt="Thông tin lớp học" class="chibi-card-image">
-        <div class="chibi-card-label">Thông tin lớp học</div>
+      <button class="home-info-card class-card" onclick="openHomePanel('class')">
+        <div class="home-info-icon">🏫</div>
+        <div>
+          <h3>Thông tin lớp học</h3>
+          <p>Xem thông tin lớp, lịch học và nội dung khóa học.</p>
+        </div>
+        <span class="home-info-arrow">→</span>
       </button>
 
-      <button class="home-info-card chibi-card" onclick="openHomePanel('review')">
-        <img src="chibi-review.png" alt="Ôn tập bài học" class="chibi-card-image">
-        <div class="chibi-card-label">Ôn tập bài học</div>
+      <button class="home-info-card review-card" onclick="openHomePanel('review')">
+        <div class="home-info-icon">📚</div>
+        <div>
+          <h3>Ôn tập bài học</h3>
+          <p>Chọn HSK 1 – HSK 6 để bắt đầu ôn tập.</p>
+        </div>
+        <span class="home-info-arrow">→</span>
       </button>
     </div>
 
@@ -106,5 +118,5 @@
 </main>
 <footer>YuHua Chinese • Wings to the World of Chinese</footer>
 <script src="https://cdn.jsdelivr.net/npm/pinyin-pro@3.18.2/dist/index.js"></script>
-<script src="hsk2-data.js"></script><script src="data-v4.js"></script><script src="app-v22.js"></script>
+<script src="hsk2-data.js"></script><script src="data-v4.js"></script><script src="app-v24.js"></script>
 </body></html>

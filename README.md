@@ -1,20 +1,22 @@
-# YuHua Chinese — HSK Learning Hub v22
+# YuHua Chinese — HSK Learning Hub v24
 
-## Cập nhật HSK 2
-- Đã thêm 15 bài HSK 2 theo giáo trình New HSK Course 2 đính kèm.
-- Cả 15 bài có tên bài và 3 điểm ngữ pháp trọng tâm theo mục lục.
-- Bài 1–4, 6–8 đã được nhập thêm từ vựng và 4 bài khóa từ các trang đã kiểm tra.
-- Bài 5 và 9 có một phần từ vựng đã kiểm tra.
-- Bài 15 có phần từ vựng và 3 bài khóa nhìn thấy trong PDF; tài liệu đính kèm kết thúc ở giữa bài 15 nên không tự tạo phần còn thiếu.
-- HSK 3 được giữ nguyên.
+Bản v24 sửa toàn bộ phần từ mới HSK 2.
 
-## File upload GitHub
+## HSK 2
+- 15 bài đều có danh sách từ mới.
+- Từ mới dùng cùng cấu trúc dữ liệu với HSK 3: Hán tự + pinyin + nghĩa tiếng Việt.
+- Flashcard hoạt động: mặt trước/mặt sau, Nhớ rồi/Chưa nhớ, ôn lại từ chưa nhớ.
+- Phát âm 2 tốc độ.
+- Mini quiz từ vựng/pinyin hoạt động ở cả 15 bài.
+- Các bài khóa đã nhập trước đó được chuyển sang cấu trúc giống HSK 3 để có thể hiện/ẩn pinyin và dùng cho bài điền từ.
+- HSK 3 giữ nguyên.
+
+Lưu ý: file PDF đính kèm kết thúc trong Bài 15, vì vậy không tự tạo phần Bài 15 chưa có trong nguồn.
+
+## Upload GitHub
 - index.html
 - style-v4.css
 - hsk2-data.js
 - data-v4.js
-- app-v22.js
+- app-v24.js
 - hero-yuhua.png
-- chibi-teacher.png
-- chibi-class.png
-- chibi-review.png
