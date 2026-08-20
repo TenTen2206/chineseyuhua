@@ -166,6 +166,166 @@ const HSK3_DATA = [
         "vi": "ảnh; hình chụp",
         "en": "photo"
       }
+    ],
+    "texts": [
+      {
+        "id": 1,
+        "title": "Bài khóa 1",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 1 từ giáo trình."
+      },
+      {
+        "id": 2,
+        "title": "Bài khóa 2",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 2 từ giáo trình."
+      },
+      {
+        "id": 3,
+        "title": "Bài khóa 3",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 3 từ giáo trình."
+      },
+      {
+        "id": 4,
+        "title": "Bài khóa 4",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 4 từ giáo trình."
+      }
+    ],
+    "review": [
+      {
+        "question": "“以为” có nghĩa là gì?",
+        "answer": "nghĩ rằng; cho rằng"
+      },
+      {
+        "question": "“像” có nghĩa là gì?",
+        "answer": "giống; giống như"
+      },
+      {
+        "question": "“长” có nghĩa là gì?",
+        "answer": "lớn lên; phát triển"
+      },
+      {
+        "question": "“身高” có nghĩa là gì?",
+        "answer": "chiều cao"
+      },
+      {
+        "question": "“米” có nghĩa là gì?",
+        "answer": "mét"
+      },
+      {
+        "question": "“瘦” có nghĩa là gì?",
+        "answer": "gầy"
+      },
+      {
+        "question": "“接” có nghĩa là gì?",
+        "answer": "đón; gặp"
+      },
+      {
+        "question": "“行李” có nghĩa là gì?",
+        "answer": "hành lý"
+      },
+      {
+        "question": "“丢” có nghĩa là gì?",
+        "answer": "làm mất; mất"
+      },
+      {
+        "question": "“箱子” có nghĩa là gì?",
+        "answer": "va-li; thùng; hòm"
+      },
+      {
+        "question": "“号码” có nghĩa là gì?",
+        "answer": "số; số hiệu"
+      },
+      {
+        "question": "“好像” có nghĩa là gì?",
+        "answer": "hình như; dường như"
+      }
+    ],
+    "translate": [
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: nghĩ rằng; cho rằng",
+        "zh": "以为"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: giống; giống như",
+        "zh": "像"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: lớn lên; phát triển",
+        "zh": "长"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: chiều cao",
+        "zh": "身高"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: mét",
+        "zh": "米"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: gầy",
+        "zh": "瘦"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: đón; gặp",
+        "zh": "接"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: hành lý",
+        "zh": "行李"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: làm mất; mất",
+        "zh": "丢"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: va-li; thùng; hòm",
+        "zh": "箱子"
+      }
+    ],
+    "fill": [
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “nghĩ rằng; cho rằng” → ________",
+        "answer": "以为"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “giống; giống như” → ________",
+        "answer": "像"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “lớn lên; phát triển” → ________",
+        "answer": "长"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “chiều cao” → ________",
+        "answer": "身高"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “mét” → ________",
+        "answer": "米"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “gầy” → ________",
+        "answer": "瘦"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “đón; gặp” → ________",
+        "answer": "接"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “hành lý” → ________",
+        "answer": "行李"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “làm mất; mất” → ________",
+        "answer": "丢"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “va-li; thùng; hòm” → ________",
+        "answer": "箱子"
+      }
     ]
   },
   {
@@ -341,6 +501,166 @@ const HSK3_DATA = [
         "vi": "đơn giản",
         "en": "simple"
       }
+    ],
+    "texts": [
+      {
+        "id": 1,
+        "title": "Bài khóa 1",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 1 từ giáo trình."
+      },
+      {
+        "id": 2,
+        "title": "Bài khóa 2",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 2 từ giáo trình."
+      },
+      {
+        "id": 3,
+        "title": "Bài khóa 3",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 3 từ giáo trình."
+      },
+      {
+        "id": 4,
+        "title": "Bài khóa 4",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 4 từ giáo trình."
+      }
+    ],
+    "review": [
+      {
+        "question": "“菜单” có nghĩa là gì?",
+        "answer": "thực đơn"
+      },
+      {
+        "question": "“又” có nghĩa là gì?",
+        "answer": "lại; vừa... vừa..."
+      },
+      {
+        "question": "“饿” có nghĩa là gì?",
+        "answer": "đói"
+      },
+      {
+        "question": "“渴” có nghĩa là gì?",
+        "answer": "khát"
+      },
+      {
+        "question": "“客气” có nghĩa là gì?",
+        "answer": "khách sáo; lịch sự"
+      },
+      {
+        "question": "“饮料” có nghĩa là gì?",
+        "answer": "đồ uống"
+      },
+      {
+        "question": "“好久” có nghĩa là gì?",
+        "answer": "rất lâu"
+      },
+      {
+        "question": "“服务” có nghĩa là gì?",
+        "answer": "phục vụ; dịch vụ"
+      },
+      {
+        "question": "“员” có nghĩa là gì?",
+        "answer": "hậu tố chỉ người làm nghề"
+      },
+      {
+        "question": "“双” có nghĩa là gì?",
+        "answer": "đôi; cặp"
+      },
+      {
+        "question": "“筷子” có nghĩa là gì?",
+        "answer": "đũa"
+      },
+      {
+        "question": "“勺子” có nghĩa là gì?",
+        "answer": "thìa; muỗng"
+      }
+    ],
+    "translate": [
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: thực đơn",
+        "zh": "菜单"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: lại; vừa... vừa...",
+        "zh": "又"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: đói",
+        "zh": "饿"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: khát",
+        "zh": "渴"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: khách sáo; lịch sự",
+        "zh": "客气"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: đồ uống",
+        "zh": "饮料"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: rất lâu",
+        "zh": "好久"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: phục vụ; dịch vụ",
+        "zh": "服务"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: hậu tố chỉ người làm nghề",
+        "zh": "员"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: đôi; cặp",
+        "zh": "双"
+      }
+    ],
+    "fill": [
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “thực đơn” → ________",
+        "answer": "菜单"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “lại; vừa... vừa...” → ________",
+        "answer": "又"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “đói” → ________",
+        "answer": "饿"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “khát” → ________",
+        "answer": "渴"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “khách sáo; lịch sự” → ________",
+        "answer": "客气"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “đồ uống” → ________",
+        "answer": "饮料"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “rất lâu” → ________",
+        "answer": "好久"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “phục vụ; dịch vụ” → ________",
+        "answer": "服务"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “hậu tố chỉ người làm nghề” → ________",
+        "answer": "员"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “đôi; cặp” → ________",
+        "answer": "双"
+      }
     ]
   },
   {
@@ -503,6 +823,166 @@ const HSK3_DATA = [
         "pinyin": "xūyào",
         "vi": "cần; cần thiết",
         "en": "need"
+      }
+    ],
+    "texts": [
+      {
+        "id": 1,
+        "title": "Bài khóa 1",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 1 từ giáo trình."
+      },
+      {
+        "id": 2,
+        "title": "Bài khóa 2",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 2 từ giáo trình."
+      },
+      {
+        "id": 3,
+        "title": "Bài khóa 3",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 3 từ giáo trình."
+      },
+      {
+        "id": 4,
+        "title": "Bài khóa 4",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 4 từ giáo trình."
+      }
+    ],
+    "review": [
+      {
+        "question": "“初中” có nghĩa là gì?",
+        "answer": "trung học cơ sở"
+      },
+      {
+        "question": "“咱们” có nghĩa là gì?",
+        "answer": "chúng ta"
+      },
+      {
+        "question": "“换” có nghĩa là gì?",
+        "answer": "đổi; thay"
+      },
+      {
+        "question": "“房子” có nghĩa là gì?",
+        "answer": "nhà"
+      },
+      {
+        "question": "“小区” có nghĩa là gì?",
+        "answer": "khu dân cư"
+      },
+      {
+        "question": "“环境” có nghĩa là gì?",
+        "answer": "môi trường; hoàn cảnh"
+      },
+      {
+        "question": "“挺” có nghĩa là gì?",
+        "answer": "khá; rất"
+      },
+      {
+        "question": "“空调” có nghĩa là gì?",
+        "answer": "điều hòa"
+      },
+      {
+        "question": "“洗衣机” có nghĩa là gì?",
+        "answer": "máy giặt"
+      },
+      {
+        "question": "“层” có nghĩa là gì?",
+        "answer": "tầng"
+      },
+      {
+        "question": "“花园” có nghĩa là gì?",
+        "answer": "vườn"
+      },
+      {
+        "question": "“灯” có nghĩa là gì?",
+        "answer": "đèn"
+      }
+    ],
+    "translate": [
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: trung học cơ sở",
+        "zh": "初中"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: chúng ta",
+        "zh": "咱们"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: đổi; thay",
+        "zh": "换"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: nhà",
+        "zh": "房子"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: khu dân cư",
+        "zh": "小区"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: môi trường; hoàn cảnh",
+        "zh": "环境"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: khá; rất",
+        "zh": "挺"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: điều hòa",
+        "zh": "空调"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: máy giặt",
+        "zh": "洗衣机"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: tầng",
+        "zh": "层"
+      }
+    ],
+    "fill": [
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “trung học cơ sở” → ________",
+        "answer": "初中"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “chúng ta” → ________",
+        "answer": "咱们"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “đổi; thay” → ________",
+        "answer": "换"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “nhà” → ________",
+        "answer": "房子"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “khu dân cư” → ________",
+        "answer": "小区"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “môi trường; hoàn cảnh” → ________",
+        "answer": "环境"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “khá; rất” → ________",
+        "answer": "挺"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “điều hòa” → ________",
+        "answer": "空调"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “máy giặt” → ________",
+        "answer": "洗衣机"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “tầng” → ________",
+        "answer": "层"
       }
     ]
   },
@@ -673,6 +1153,166 @@ const HSK3_DATA = [
         "vi": "hài lòng",
         "en": "be satisfied"
       }
+    ],
+    "texts": [
+      {
+        "id": 1,
+        "title": "Bài khóa 1",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 1 từ giáo trình."
+      },
+      {
+        "id": 2,
+        "title": "Bài khóa 2",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 2 từ giáo trình."
+      },
+      {
+        "id": 3,
+        "title": "Bài khóa 3",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 3 từ giáo trình."
+      },
+      {
+        "id": 4,
+        "title": "Bài khóa 4",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 4 từ giáo trình."
+      }
+    ],
+    "review": [
+      {
+        "question": "“假期” có nghĩa là gì?",
+        "answer": "kỳ nghỉ"
+      },
+      {
+        "question": "“海” có nghĩa là gì?",
+        "answer": "biển"
+      },
+      {
+        "question": "“草原” có nghĩa là gì?",
+        "answer": "thảo nguyên"
+      },
+      {
+        "question": "“主意” có nghĩa là gì?",
+        "answer": "ý kiến; chủ ý"
+      },
+      {
+        "question": "“骑” có nghĩa là gì?",
+        "answer": "cưỡi; đi (xe)"
+      },
+      {
+        "question": "“马” có nghĩa là gì?",
+        "answer": "ngựa"
+      },
+      {
+        "question": "“羊” có nghĩa là gì?",
+        "answer": "cừu; dê"
+      },
+      {
+        "question": "“月亮” có nghĩa là gì?",
+        "answer": "mặt trăng"
+      },
+      {
+        "question": "“一定” có nghĩa là gì?",
+        "answer": "nhất định; chắc chắn"
+      },
+      {
+        "question": "“刻” có nghĩa là gì?",
+        "answer": "khắc; 15 phút"
+      },
+      {
+        "question": "“起飞” có nghĩa là gì?",
+        "answer": "cất cánh"
+      },
+      {
+        "question": "“宾馆” có nghĩa là gì?",
+        "answer": "khách sạn"
+      }
+    ],
+    "translate": [
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: kỳ nghỉ",
+        "zh": "假期"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: biển",
+        "zh": "海"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: thảo nguyên",
+        "zh": "草原"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: ý kiến; chủ ý",
+        "zh": "主意"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: cưỡi; đi (xe)",
+        "zh": "骑"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: ngựa",
+        "zh": "马"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: cừu; dê",
+        "zh": "羊"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: mặt trăng",
+        "zh": "月亮"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: nhất định; chắc chắn",
+        "zh": "一定"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: khắc; 15 phút",
+        "zh": "刻"
+      }
+    ],
+    "fill": [
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “kỳ nghỉ” → ________",
+        "answer": "假期"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “biển” → ________",
+        "answer": "海"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “thảo nguyên” → ________",
+        "answer": "草原"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “ý kiến; chủ ý” → ________",
+        "answer": "主意"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “cưỡi; đi (xe)” → ________",
+        "answer": "骑"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “ngựa” → ________",
+        "answer": "马"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “cừu; dê” → ________",
+        "answer": "羊"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “mặt trăng” → ________",
+        "answer": "月亮"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “nhất định; chắc chắn” → ________",
+        "answer": "一定"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “khắc; 15 phút” → ________",
+        "answer": "刻"
+      }
     ]
   },
   {
@@ -842,6 +1482,166 @@ const HSK3_DATA = [
         "vi": "kết thúc",
         "en": "finish"
       }
+    ],
+    "texts": [
+      {
+        "id": 1,
+        "title": "Bài khóa 1",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 1 từ giáo trình."
+      },
+      {
+        "id": 2,
+        "title": "Bài khóa 2",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 2 từ giáo trình."
+      },
+      {
+        "id": 3,
+        "title": "Bài khóa 3",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 3 từ giáo trình."
+      },
+      {
+        "id": 4,
+        "title": "Bài khóa 4",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 4 từ giáo trình."
+      }
+    ],
+    "review": [
+      {
+        "question": "“总是” có nghĩa là gì?",
+        "answer": "luôn luôn"
+      },
+      {
+        "question": "“终于” có nghĩa là gì?",
+        "answer": "cuối cùng"
+      },
+      {
+        "question": "“爬” có nghĩa là gì?",
+        "answer": "leo; trèo"
+      },
+      {
+        "question": "“山” có nghĩa là gì?",
+        "answer": "núi"
+      },
+      {
+        "question": "“锻炼” có nghĩa là gì?",
+        "answer": "rèn luyện; tập thể dục"
+      },
+      {
+        "question": "“照” có nghĩa là gì?",
+        "answer": "chụp (ảnh)"
+      },
+      {
+        "question": "“鞋” có nghĩa là gì?",
+        "answer": "giày"
+      },
+      {
+        "question": "“大衣” có nghĩa là gì?",
+        "answer": "áo khoác dài"
+      },
+      {
+        "question": "“拍照” có nghĩa là gì?",
+        "answer": "chụp ảnh"
+      },
+      {
+        "question": "“感兴趣” có nghĩa là gì?",
+        "answer": "cảm thấy hứng thú"
+      },
+      {
+        "question": "“照相” có nghĩa là gì?",
+        "answer": "chụp ảnh"
+      },
+      {
+        "question": "“难看” có nghĩa là gì?",
+        "answer": "xấu; khó coi"
+      }
+    ],
+    "translate": [
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: luôn luôn",
+        "zh": "总是"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: cuối cùng",
+        "zh": "终于"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: leo; trèo",
+        "zh": "爬"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: núi",
+        "zh": "山"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: rèn luyện; tập thể dục",
+        "zh": "锻炼"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: chụp (ảnh)",
+        "zh": "照"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: giày",
+        "zh": "鞋"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: áo khoác dài",
+        "zh": "大衣"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: chụp ảnh",
+        "zh": "拍照"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: cảm thấy hứng thú",
+        "zh": "感兴趣"
+      }
+    ],
+    "fill": [
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “luôn luôn” → ________",
+        "answer": "总是"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “cuối cùng” → ________",
+        "answer": "终于"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “leo; trèo” → ________",
+        "answer": "爬"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “núi” → ________",
+        "answer": "山"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “rèn luyện; tập thể dục” → ________",
+        "answer": "锻炼"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “chụp (ảnh)” → ________",
+        "answer": "照"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “giày” → ________",
+        "answer": "鞋"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “áo khoác dài” → ________",
+        "answer": "大衣"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “chụp ảnh” → ________",
+        "answer": "拍照"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “cảm thấy hứng thú” → ________",
+        "answer": "感兴趣"
+      }
     ]
   },
   {
@@ -1004,6 +1804,166 @@ const HSK3_DATA = [
         "pinyin": "bìxū",
         "vi": "phải; bắt buộc",
         "en": "have to; must"
+      }
+    ],
+    "texts": [
+      {
+        "id": 1,
+        "title": "Bài khóa 1",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 1 từ giáo trình."
+      },
+      {
+        "id": 2,
+        "title": "Bài khóa 2",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 2 từ giáo trình."
+      },
+      {
+        "id": 3,
+        "title": "Bài khóa 3",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 3 từ giáo trình."
+      },
+      {
+        "id": 4,
+        "title": "Bài khóa 4",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 4 từ giáo trình."
+      }
+    ],
+    "review": [
+      {
+        "question": "“该” có nghĩa là gì?",
+        "answer": "nên; đến lúc"
+      },
+      {
+        "question": "“打算” có nghĩa là gì?",
+        "answer": "dự định; kế hoạch"
+      },
+      {
+        "question": "“高铁” có nghĩa là gì?",
+        "answer": "tàu cao tốc"
+      },
+      {
+        "question": "“行” có nghĩa là gì?",
+        "answer": "được; ổn; có khả năng"
+      },
+      {
+        "question": "“路口” có nghĩa là gì?",
+        "answer": "ngã tư; giao lộ"
+      },
+      {
+        "question": "“小心” có nghĩa là gì?",
+        "answer": "cẩn thận"
+      },
+      {
+        "question": "“迟到” có nghĩa là gì?",
+        "answer": "đến muộn"
+      },
+      {
+        "question": "“红绿灯” có nghĩa là gì?",
+        "answer": "đèn giao thông"
+      },
+      {
+        "question": "“后来” có nghĩa là gì?",
+        "answer": "sau đó; về sau"
+      },
+      {
+        "question": "“急” có nghĩa là gì?",
+        "answer": "gấp; sốt ruột"
+      },
+      {
+        "question": "“如果” có nghĩa là gì?",
+        "answer": "nếu"
+      },
+      {
+        "question": "“以前” có nghĩa là gì?",
+        "answer": "trước đây"
+      }
+    ],
+    "translate": [
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: nên; đến lúc",
+        "zh": "该"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: dự định; kế hoạch",
+        "zh": "打算"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: tàu cao tốc",
+        "zh": "高铁"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: được; ổn; có khả năng",
+        "zh": "行"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: ngã tư; giao lộ",
+        "zh": "路口"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: cẩn thận",
+        "zh": "小心"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: đến muộn",
+        "zh": "迟到"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: đèn giao thông",
+        "zh": "红绿灯"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: sau đó; về sau",
+        "zh": "后来"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: gấp; sốt ruột",
+        "zh": "急"
+      }
+    ],
+    "fill": [
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “nên; đến lúc” → ________",
+        "answer": "该"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “dự định; kế hoạch” → ________",
+        "answer": "打算"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “tàu cao tốc” → ________",
+        "answer": "高铁"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “được; ổn; có khả năng” → ________",
+        "answer": "行"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “ngã tư; giao lộ” → ________",
+        "answer": "路口"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “cẩn thận” → ________",
+        "answer": "小心"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “đến muộn” → ________",
+        "answer": "迟到"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “đèn giao thông” → ________",
+        "answer": "红绿灯"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “sau đó; về sau” → ________",
+        "answer": "后来"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “gấp; sốt ruột” → ________",
+        "answer": "急"
       }
     ]
   },
@@ -1173,6 +2133,166 @@ const HSK3_DATA = [
         "pinyin": "kāijī",
         "vi": "khởi động; bật máy",
         "en": "start; be powered-on"
+      }
+    ],
+    "texts": [
+      {
+        "id": 1,
+        "title": "Bài khóa 1",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 1 từ giáo trình."
+      },
+      {
+        "id": 2,
+        "title": "Bài khóa 2",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 2 từ giáo trình."
+      },
+      {
+        "id": 3,
+        "title": "Bài khóa 3",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 3 từ giáo trình."
+      },
+      {
+        "id": 4,
+        "title": "Bài khóa 4",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 4 từ giáo trình."
+      }
+    ],
+    "review": [
+      {
+        "question": "“辆” có nghĩa là gì?",
+        "answer": "lượng từ cho xe"
+      },
+      {
+        "question": "“自行车” có nghĩa là gì?",
+        "answer": "xe đạp"
+      },
+      {
+        "question": "“旧” có nghĩa là gì?",
+        "answer": "cũ"
+      },
+      {
+        "question": "“矮” có nghĩa là gì?",
+        "answer": "thấp; lùn"
+      },
+      {
+        "question": "“试” có nghĩa là gì?",
+        "answer": "thử"
+      },
+      {
+        "question": "“黄色” có nghĩa là gì?",
+        "answer": "màu vàng"
+      },
+      {
+        "question": "“短裤” có nghĩa là gì?",
+        "answer": "quần short"
+      },
+      {
+        "question": "“大小” có nghĩa là gì?",
+        "answer": "kích cỡ; lớn nhỏ"
+      },
+      {
+        "question": "“合适” có nghĩa là gì?",
+        "answer": "phù hợp; vừa"
+      },
+      {
+        "question": "“裙子” có nghĩa là gì?",
+        "answer": "váy"
+      },
+      {
+        "question": "“更” có nghĩa là gì?",
+        "answer": "hơn; càng hơn"
+      },
+      {
+        "question": "“决定” có nghĩa là gì?",
+        "answer": "quyết định"
+      }
+    ],
+    "translate": [
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: lượng từ cho xe",
+        "zh": "辆"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: xe đạp",
+        "zh": "自行车"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: cũ",
+        "zh": "旧"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: thấp; lùn",
+        "zh": "矮"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: thử",
+        "zh": "试"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: màu vàng",
+        "zh": "黄色"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: quần short",
+        "zh": "短裤"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: kích cỡ; lớn nhỏ",
+        "zh": "大小"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: phù hợp; vừa",
+        "zh": "合适"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: váy",
+        "zh": "裙子"
+      }
+    ],
+    "fill": [
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “lượng từ cho xe” → ________",
+        "answer": "辆"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “xe đạp” → ________",
+        "answer": "自行车"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “cũ” → ________",
+        "answer": "旧"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “thấp; lùn” → ________",
+        "answer": "矮"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “thử” → ________",
+        "answer": "试"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “màu vàng” → ________",
+        "answer": "黄色"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “quần short” → ________",
+        "answer": "短裤"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “kích cỡ; lớn nhỏ” → ________",
+        "answer": "大小"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “phù hợp; vừa” → ________",
+        "answer": "合适"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “váy” → ________",
+        "answer": "裙子"
       }
     ]
   },
@@ -1349,6 +2469,166 @@ const HSK3_DATA = [
         "vi": "trong lòng; trong tâm trí",
         "en": "mind; heart"
       }
+    ],
+    "texts": [
+      {
+        "id": 1,
+        "title": "Bài khóa 1",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 1 từ giáo trình."
+      },
+      {
+        "id": 2,
+        "title": "Bài khóa 2",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 2 từ giáo trình."
+      },
+      {
+        "id": 3,
+        "title": "Bài khóa 3",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 3 từ giáo trình."
+      },
+      {
+        "id": 4,
+        "title": "Bài khóa 4",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 4 từ giáo trình."
+      }
+    ],
+    "review": [
+      {
+        "question": "“最近” có nghĩa là gì?",
+        "answer": "gần đây"
+      },
+      {
+        "question": "“常” có nghĩa là gì?",
+        "answer": "thường"
+      },
+      {
+        "question": "“体育馆” có nghĩa là gì?",
+        "answer": "nhà thi đấu; phòng thể thao"
+      },
+      {
+        "question": "“习惯” có nghĩa là gì?",
+        "answer": "thói quen; quen với"
+      },
+      {
+        "question": "“胖” có nghĩa là gì?",
+        "answer": "béo"
+      },
+      {
+        "question": "“健康” có nghĩa là gì?",
+        "answer": "khỏe mạnh"
+      },
+      {
+        "question": "“以后” có nghĩa là gì?",
+        "answer": "sau này; sau đó"
+      },
+      {
+        "question": "“羽毛球” có nghĩa là gì?",
+        "answer": "cầu lông"
+      },
+      {
+        "question": "“耳朵” có nghĩa là gì?",
+        "answer": "tai"
+      },
+      {
+        "question": "“感冒” có nghĩa là gì?",
+        "answer": "cảm lạnh"
+      },
+      {
+        "question": "“发烧” có nghĩa là gì?",
+        "answer": "sốt"
+      },
+      {
+        "question": "“低” có nghĩa là gì?",
+        "answer": "thấp"
+      }
+    ],
+    "translate": [
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: gần đây",
+        "zh": "最近"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: thường",
+        "zh": "常"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: nhà thi đấu; phòng thể thao",
+        "zh": "体育馆"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: thói quen; quen với",
+        "zh": "习惯"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: béo",
+        "zh": "胖"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: khỏe mạnh",
+        "zh": "健康"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: sau này; sau đó",
+        "zh": "以后"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: cầu lông",
+        "zh": "羽毛球"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: tai",
+        "zh": "耳朵"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: cảm lạnh",
+        "zh": "感冒"
+      }
+    ],
+    "fill": [
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “gần đây” → ________",
+        "answer": "最近"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “thường” → ________",
+        "answer": "常"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “nhà thi đấu; phòng thể thao” → ________",
+        "answer": "体育馆"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “thói quen; quen với” → ________",
+        "answer": "习惯"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “béo” → ________",
+        "answer": "胖"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “khỏe mạnh” → ________",
+        "answer": "健康"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “sau này; sau đó” → ________",
+        "answer": "以后"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “cầu lông” → ________",
+        "answer": "羽毛球"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “tai” → ________",
+        "answer": "耳朵"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “cảm lạnh” → ________",
+        "answer": "感冒"
+      }
     ]
   },
   {
@@ -1511,6 +2791,166 @@ const HSK3_DATA = [
         "pinyin": "chéngjì",
         "vi": "thành tích; kết quả",
         "en": "result; achievement"
+      }
+    ],
+    "texts": [
+      {
+        "id": 1,
+        "title": "Bài khóa 1",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 1 từ giáo trình."
+      },
+      {
+        "id": 2,
+        "title": "Bài khóa 2",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 2 từ giáo trình."
+      },
+      {
+        "id": 3,
+        "title": "Bài khóa 3",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 3 từ giáo trình."
+      },
+      {
+        "id": 4,
+        "title": "Bài khóa 4",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 4 từ giáo trình."
+      }
+    ],
+    "review": [
+      {
+        "question": "“校园” có nghĩa là gì?",
+        "answer": "khuôn viên trường"
+      },
+      {
+        "question": "“卡” có nghĩa là gì?",
+        "answer": "thẻ"
+      },
+      {
+        "question": "“球场” có nghĩa là gì?",
+        "answer": "sân bóng"
+      },
+      {
+        "question": "“为了” có nghĩa là gì?",
+        "answer": "để; vì mục đích"
+      },
+      {
+        "question": "“运动会” có nghĩa là gì?",
+        "answer": "đại hội thể thao"
+      },
+      {
+        "question": "“男生” có nghĩa là gì?",
+        "answer": "nam sinh"
+      },
+      {
+        "question": "“练” có nghĩa là gì?",
+        "answer": "luyện tập"
+      },
+      {
+        "question": "“参加” có nghĩa là gì?",
+        "answer": "tham gia"
+      },
+      {
+        "question": "“网球” có nghĩa là gì?",
+        "answer": "quần vợt"
+      },
+      {
+        "question": "“比赛” có nghĩa là gì?",
+        "answer": "thi đấu; cuộc thi"
+      },
+      {
+        "question": "“练习” có nghĩa là gì?",
+        "answer": "luyện tập; bài luyện"
+      },
+      {
+        "question": "“好多” có nghĩa là gì?",
+        "answer": "rất nhiều"
+      }
+    ],
+    "translate": [
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: khuôn viên trường",
+        "zh": "校园"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: thẻ",
+        "zh": "卡"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: sân bóng",
+        "zh": "球场"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: để; vì mục đích",
+        "zh": "为了"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: đại hội thể thao",
+        "zh": "运动会"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: nam sinh",
+        "zh": "男生"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: luyện tập",
+        "zh": "练"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: tham gia",
+        "zh": "参加"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: quần vợt",
+        "zh": "网球"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: thi đấu; cuộc thi",
+        "zh": "比赛"
+      }
+    ],
+    "fill": [
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “khuôn viên trường” → ________",
+        "answer": "校园"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “thẻ” → ________",
+        "answer": "卡"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “sân bóng” → ________",
+        "answer": "球场"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “để; vì mục đích” → ________",
+        "answer": "为了"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “đại hội thể thao” → ________",
+        "answer": "运动会"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “nam sinh” → ________",
+        "answer": "男生"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “luyện tập” → ________",
+        "answer": "练"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “tham gia” → ________",
+        "answer": "参加"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “quần vợt” → ________",
+        "answer": "网球"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “thi đấu; cuộc thi” → ________",
+        "answer": "比赛"
       }
     ]
   },
@@ -1687,6 +3127,166 @@ const HSK3_DATA = [
         "vi": "nỗ lực; chăm chỉ",
         "en": "hard-working; make an effort"
       }
+    ],
+    "texts": [
+      {
+        "id": 1,
+        "title": "Bài khóa 1",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 1 từ giáo trình."
+      },
+      {
+        "id": 2,
+        "title": "Bài khóa 2",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 2 từ giáo trình."
+      },
+      {
+        "id": 3,
+        "title": "Bài khóa 3",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 3 từ giáo trình."
+      },
+      {
+        "id": 4,
+        "title": "Bài khóa 4",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 4 từ giáo trình."
+      }
+    ],
+    "review": [
+      {
+        "question": "“数学” có nghĩa là gì?",
+        "answer": "toán học"
+      },
+      {
+        "question": "“认真” có nghĩa là gì?",
+        "answer": "nghiêm túc; chăm chỉ"
+      },
+      {
+        "question": "“笔记” có nghĩa là gì?",
+        "answer": "ghi chép; ghi chú"
+      },
+      {
+        "question": "“清楚” có nghĩa là gì?",
+        "answer": "rõ ràng; biết rõ"
+      },
+      {
+        "question": "“黑板” có nghĩa là gì?",
+        "answer": "bảng đen"
+      },
+      {
+        "question": "“把” có nghĩa là gì?",
+        "answer": "giới từ dùng trong câu chữ 把"
+      },
+      {
+        "question": "“作业” có nghĩa là gì?",
+        "answer": "bài tập về nhà"
+      },
+      {
+        "question": "“遍” có nghĩa là gì?",
+        "answer": "lần; lượt từ đầu đến cuối"
+      },
+      {
+        "question": "“提高” có nghĩa là gì?",
+        "answer": "nâng cao"
+      },
+      {
+        "question": "“历史” có nghĩa là gì?",
+        "answer": "lịch sử"
+      },
+      {
+        "question": "“难” có nghĩa là gì?",
+        "answer": "khó"
+      },
+      {
+        "question": "“要求” có nghĩa là gì?",
+        "answer": "yêu cầu"
+      }
+    ],
+    "translate": [
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: toán học",
+        "zh": "数学"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: nghiêm túc; chăm chỉ",
+        "zh": "认真"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: ghi chép; ghi chú",
+        "zh": "笔记"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: rõ ràng; biết rõ",
+        "zh": "清楚"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: bảng đen",
+        "zh": "黑板"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: giới từ dùng trong câu chữ 把",
+        "zh": "把"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: bài tập về nhà",
+        "zh": "作业"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: lần; lượt từ đầu đến cuối",
+        "zh": "遍"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: nâng cao",
+        "zh": "提高"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: lịch sử",
+        "zh": "历史"
+      }
+    ],
+    "fill": [
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “toán học” → ________",
+        "answer": "数学"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “nghiêm túc; chăm chỉ” → ________",
+        "answer": "认真"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “ghi chép; ghi chú” → ________",
+        "answer": "笔记"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “rõ ràng; biết rõ” → ________",
+        "answer": "清楚"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “bảng đen” → ________",
+        "answer": "黑板"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “giới từ dùng trong câu chữ 把” → ________",
+        "answer": "把"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “bài tập về nhà” → ________",
+        "answer": "作业"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “lần; lượt từ đầu đến cuối” → ________",
+        "answer": "遍"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “nâng cao” → ________",
+        "answer": "提高"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “lịch sử” → ________",
+        "answer": "历史"
+      }
     ]
   },
   {
@@ -1855,6 +3455,166 @@ const HSK3_DATA = [
         "pinyin": "huò",
         "vi": "hoặc",
         "en": "or"
+      }
+    ],
+    "texts": [
+      {
+        "id": 1,
+        "title": "Bài khóa 1",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 1 từ giáo trình."
+      },
+      {
+        "id": 2,
+        "title": "Bài khóa 2",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 2 từ giáo trình."
+      },
+      {
+        "id": 3,
+        "title": "Bài khóa 3",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 3 từ giáo trình."
+      },
+      {
+        "id": 4,
+        "title": "Bài khóa 4",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 4 từ giáo trình."
+      }
+    ],
+    "review": [
+      {
+        "question": "“会议” có nghĩa là gì?",
+        "answer": "cuộc họp; hội nghị"
+      },
+      {
+        "question": "“经理” có nghĩa là gì?",
+        "answer": "quản lý; giám đốc"
+      },
+      {
+        "question": "“开会” có nghĩa là gì?",
+        "answer": "họp"
+      },
+      {
+        "question": "“后天” có nghĩa là gì?",
+        "answer": "ngày kia"
+      },
+      {
+        "question": "“地点” có nghĩa là gì?",
+        "answer": "địa điểm"
+      },
+      {
+        "question": "“室” có nghĩa là gì?",
+        "answer": "phòng"
+      },
+      {
+        "question": "“发” có nghĩa là gì?",
+        "answer": "gửi; phát"
+      },
+      {
+        "question": "“笔记本（电脑）” có nghĩa là gì?",
+        "answer": "máy tính xách tay"
+      },
+      {
+        "question": "“或者” có nghĩa là gì?",
+        "answer": "hoặc"
+      },
+      {
+        "question": "“声音” có nghĩa là gì?",
+        "answer": "âm thanh; tiếng"
+      },
+      {
+        "question": "“看来” có nghĩa là gì?",
+        "answer": "xem ra; có vẻ"
+      },
+      {
+        "question": "“办法” có nghĩa là gì?",
+        "answer": "cách; biện pháp"
+      }
+    ],
+    "translate": [
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: cuộc họp; hội nghị",
+        "zh": "会议"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: quản lý; giám đốc",
+        "zh": "经理"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: họp",
+        "zh": "开会"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: ngày kia",
+        "zh": "后天"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: địa điểm",
+        "zh": "地点"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: phòng",
+        "zh": "室"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: gửi; phát",
+        "zh": "发"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: máy tính xách tay",
+        "zh": "笔记本（电脑）"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: hoặc",
+        "zh": "或者"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: âm thanh; tiếng",
+        "zh": "声音"
+      }
+    ],
+    "fill": [
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “cuộc họp; hội nghị” → ________",
+        "answer": "会议"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “quản lý; giám đốc” → ________",
+        "answer": "经理"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “họp” → ________",
+        "answer": "开会"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “ngày kia” → ________",
+        "answer": "后天"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “địa điểm” → ________",
+        "answer": "地点"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “phòng” → ________",
+        "answer": "室"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “gửi; phát” → ________",
+        "answer": "发"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “máy tính xách tay” → ________",
+        "answer": "笔记本（电脑）"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “hoặc” → ________",
+        "answer": "或者"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “âm thanh; tiếng” → ________",
+        "answer": "声音"
       }
     ]
   },
@@ -2025,6 +3785,166 @@ const HSK3_DATA = [
         "vi": "trở thành; biến thành",
         "en": "become"
       }
+    ],
+    "texts": [
+      {
+        "id": 1,
+        "title": "Bài khóa 1",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 1 từ giáo trình."
+      },
+      {
+        "id": 2,
+        "title": "Bài khóa 2",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 2 từ giáo trình."
+      },
+      {
+        "id": 3,
+        "title": "Bài khóa 3",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 3 từ giáo trình."
+      },
+      {
+        "id": 4,
+        "title": "Bài khóa 4",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 4 từ giáo trình."
+      }
+    ],
+    "review": [
+      {
+        "question": "“街” có nghĩa là gì?",
+        "answer": "đường phố"
+      },
+      {
+        "question": "“开花” có nghĩa là gì?",
+        "answer": "nở hoa"
+      },
+      {
+        "question": "“公园” có nghĩa là gì?",
+        "answer": "công viên"
+      },
+      {
+        "question": "“船” có nghĩa là gì?",
+        "answer": "thuyền"
+      },
+      {
+        "question": "“工作日” có nghĩa là gì?",
+        "answer": "ngày làm việc"
+      },
+      {
+        "question": "“地方” có nghĩa là gì?",
+        "answer": "nơi; địa phương"
+      },
+      {
+        "question": "“刚才” có nghĩa là gì?",
+        "answer": "vừa nãy"
+      },
+      {
+        "question": "“刮” có nghĩa là gì?",
+        "answer": "thổi (gió)"
+      },
+      {
+        "question": "“风” có nghĩa là gì?",
+        "answer": "gió"
+      },
+      {
+        "question": "“新闻” có nghĩa là gì?",
+        "answer": "tin tức"
+      },
+      {
+        "question": "“伞” có nghĩa là gì?",
+        "answer": "ô; dù"
+      },
+      {
+        "question": "“借” có nghĩa là gì?",
+        "answer": "cho mượn; mượn"
+      }
+    ],
+    "translate": [
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: đường phố",
+        "zh": "街"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: nở hoa",
+        "zh": "开花"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: công viên",
+        "zh": "公园"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: thuyền",
+        "zh": "船"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: ngày làm việc",
+        "zh": "工作日"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: nơi; địa phương",
+        "zh": "地方"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: vừa nãy",
+        "zh": "刚才"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: thổi (gió)",
+        "zh": "刮"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: gió",
+        "zh": "风"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: tin tức",
+        "zh": "新闻"
+      }
+    ],
+    "fill": [
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “đường phố” → ________",
+        "answer": "街"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “nở hoa” → ________",
+        "answer": "开花"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “công viên” → ________",
+        "answer": "公园"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “thuyền” → ________",
+        "answer": "船"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “ngày làm việc” → ________",
+        "answer": "工作日"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “nơi; địa phương” → ________",
+        "answer": "地方"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “vừa nãy” → ________",
+        "answer": "刚才"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “thổi (gió)” → ________",
+        "answer": "刮"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “gió” → ________",
+        "answer": "风"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “tin tức” → ________",
+        "answer": "新闻"
+      }
     ]
   },
   {
@@ -2193,6 +4113,166 @@ const HSK3_DATA = [
         "pinyin": "wénhuà",
         "vi": "văn hóa",
         "en": "culture"
+      }
+    ],
+    "texts": [
+      {
+        "id": 1,
+        "title": "Bài khóa 1",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 1 từ giáo trình."
+      },
+      {
+        "id": 2,
+        "title": "Bài khóa 2",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 2 từ giáo trình."
+      },
+      {
+        "id": 3,
+        "title": "Bài khóa 3",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 3 từ giáo trình."
+      },
+      {
+        "id": 4,
+        "title": "Bài khóa 4",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 4 từ giáo trình."
+      }
+    ],
+    "review": [
+      {
+        "question": "“请客” có nghĩa là gì?",
+        "answer": "mời khách; đãi"
+      },
+      {
+        "question": "“南方” có nghĩa là gì?",
+        "answer": "phương Nam"
+      },
+      {
+        "question": "“北方” có nghĩa là gì?",
+        "answer": "phương Bắc"
+      },
+      {
+        "question": "“做法” có nghĩa là gì?",
+        "answer": "cách làm"
+      },
+      {
+        "question": "“不同” có nghĩa là gì?",
+        "answer": "khác nhau"
+      },
+      {
+        "question": "“加” có nghĩa là gì?",
+        "answer": "thêm"
+      },
+      {
+        "question": "“的话” có nghĩa là gì?",
+        "answer": "nếu...; dùng cuối mệnh đề điều kiện"
+      },
+      {
+        "question": "“做客” có nghĩa là gì?",
+        "answer": "làm khách; đến chơi nhà"
+      },
+      {
+        "question": "“邻居” có nghĩa là gì?",
+        "answer": "hàng xóm"
+      },
+      {
+        "question": "“放心” có nghĩa là gì?",
+        "answer": "yên tâm"
+      },
+      {
+        "question": "“酒” có nghĩa là gì?",
+        "answer": "rượu"
+      },
+      {
+        "question": "“放” có nghĩa là gì?",
+        "answer": "đặt; để"
+      }
+    ],
+    "translate": [
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: mời khách; đãi",
+        "zh": "请客"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: phương Nam",
+        "zh": "南方"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: phương Bắc",
+        "zh": "北方"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: cách làm",
+        "zh": "做法"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: khác nhau",
+        "zh": "不同"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: thêm",
+        "zh": "加"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: nếu...; dùng cuối mệnh đề điều kiện",
+        "zh": "的话"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: làm khách; đến chơi nhà",
+        "zh": "做客"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: hàng xóm",
+        "zh": "邻居"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: yên tâm",
+        "zh": "放心"
+      }
+    ],
+    "fill": [
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “mời khách; đãi” → ________",
+        "answer": "请客"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “phương Nam” → ________",
+        "answer": "南方"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “phương Bắc” → ________",
+        "answer": "北方"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “cách làm” → ________",
+        "answer": "做法"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “khác nhau” → ________",
+        "answer": "不同"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “thêm” → ________",
+        "answer": "加"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “nếu...; dùng cuối mệnh đề điều kiện” → ________",
+        "answer": "的话"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “làm khách; đến chơi nhà” → ________",
+        "answer": "做客"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “hàng xóm” → ________",
+        "answer": "邻居"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “yên tâm” → ________",
+        "answer": "放心"
       }
     ]
   },
@@ -2363,6 +4443,166 @@ const HSK3_DATA = [
         "vi": "video",
         "en": "video"
       }
+    ],
+    "texts": [
+      {
+        "id": 1,
+        "title": "Bài khóa 1",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 1 từ giáo trình."
+      },
+      {
+        "id": 2,
+        "title": "Bài khóa 2",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 2 từ giáo trình."
+      },
+      {
+        "id": 3,
+        "title": "Bài khóa 3",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 3 từ giáo trình."
+      },
+      {
+        "id": 4,
+        "title": "Bài khóa 4",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 4 từ giáo trình."
+      }
+    ],
+    "review": [
+      {
+        "question": "“词典” có nghĩa là gì?",
+        "answer": "từ điển"
+      },
+      {
+        "question": "“最好” có nghĩa là gì?",
+        "answer": "tốt nhất nên"
+      },
+      {
+        "question": "“节” có nghĩa là gì?",
+        "answer": "tiết; lượng từ cho tiết học"
+      },
+      {
+        "question": "“图书馆” có nghĩa là gì?",
+        "answer": "thư viện"
+      },
+      {
+        "question": "“被” có nghĩa là gì?",
+        "answer": "bị; được (dấu hiệu bị động)"
+      },
+      {
+        "question": "“名人” có nghĩa là gì?",
+        "answer": "người nổi tiếng; danh nhân"
+      },
+      {
+        "question": "“故事” có nghĩa là gì?",
+        "answer": "câu chuyện"
+      },
+      {
+        "question": "“然后” có nghĩa là gì?",
+        "answer": "sau đó"
+      },
+      {
+        "question": "“报纸” có nghĩa là gì?",
+        "answer": "báo"
+      },
+      {
+        "question": "“忘记” có nghĩa là gì?",
+        "answer": "quên"
+      },
+      {
+        "question": "“电子书” có nghĩa là gì?",
+        "answer": "sách điện tử"
+      },
+      {
+        "question": "“女生” có nghĩa là gì?",
+        "answer": "nữ sinh"
+      }
+    ],
+    "translate": [
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: từ điển",
+        "zh": "词典"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: tốt nhất nên",
+        "zh": "最好"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: tiết; lượng từ cho tiết học",
+        "zh": "节"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: thư viện",
+        "zh": "图书馆"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: bị; được (dấu hiệu bị động)",
+        "zh": "被"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: người nổi tiếng; danh nhân",
+        "zh": "名人"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: câu chuyện",
+        "zh": "故事"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: sau đó",
+        "zh": "然后"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: báo",
+        "zh": "报纸"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: quên",
+        "zh": "忘记"
+      }
+    ],
+    "fill": [
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “từ điển” → ________",
+        "answer": "词典"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “tốt nhất nên” → ________",
+        "answer": "最好"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “tiết; lượng từ cho tiết học” → ________",
+        "answer": "节"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “thư viện” → ________",
+        "answer": "图书馆"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “bị; được (dấu hiệu bị động)” → ________",
+        "answer": "被"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “người nổi tiếng; danh nhân” → ________",
+        "answer": "名人"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “câu chuyện” → ________",
+        "answer": "故事"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “sau đó” → ________",
+        "answer": "然后"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “báo” → ________",
+        "answer": "报纸"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “quên” → ________",
+        "answer": "忘记"
+      }
     ]
   },
   {
@@ -2491,6 +4731,166 @@ const HSK3_DATA = [
         "vi": "nuôi; chăm",
         "en": "raise; keep"
       }
+    ],
+    "texts": [
+      {
+        "id": 1,
+        "title": "Bài khóa 1",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 1 từ giáo trình."
+      },
+      {
+        "id": 2,
+        "title": "Bài khóa 2",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 2 từ giáo trình."
+      },
+      {
+        "id": 3,
+        "title": "Bài khóa 3",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 3 từ giáo trình."
+      },
+      {
+        "id": 4,
+        "title": "Bài khóa 4",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 4 từ giáo trình."
+      }
+    ],
+    "review": [
+      {
+        "question": "“蓝” có nghĩa là gì?",
+        "answer": "màu xanh lam"
+      },
+      {
+        "question": "“段” có nghĩa là gì?",
+        "answer": "đoạn; khoảng"
+      },
+      {
+        "question": "“附近” có nghĩa là gì?",
+        "answer": "gần; khu vực lân cận"
+      },
+      {
+        "question": "“马路” có nghĩa là gì?",
+        "answer": "đường lớn; đường phố"
+      },
+      {
+        "question": "“平时” có nghĩa là gì?",
+        "answer": "bình thường; thường ngày"
+      },
+      {
+        "question": "“放学” có nghĩa là gì?",
+        "answer": "tan học"
+      },
+      {
+        "question": "“游戏” có nghĩa là gì?",
+        "answer": "trò chơi"
+      },
+      {
+        "question": "“老人” có nghĩa là gì?",
+        "answer": "người cao tuổi"
+      },
+      {
+        "question": "“根据” có nghĩa là gì?",
+        "answer": "căn cứ theo; dựa vào"
+      },
+      {
+        "question": "“了解” có nghĩa là gì?",
+        "answer": "hiểu; tìm hiểu"
+      },
+      {
+        "question": "“可是” có nghĩa là gì?",
+        "answer": "nhưng"
+      },
+      {
+        "question": "“以上” có nghĩa là gì?",
+        "answer": "trở lên; hơn"
+      }
+    ],
+    "translate": [
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: màu xanh lam",
+        "zh": "蓝"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: đoạn; khoảng",
+        "zh": "段"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: gần; khu vực lân cận",
+        "zh": "附近"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: đường lớn; đường phố",
+        "zh": "马路"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: bình thường; thường ngày",
+        "zh": "平时"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: tan học",
+        "zh": "放学"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: trò chơi",
+        "zh": "游戏"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: người cao tuổi",
+        "zh": "老人"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: căn cứ theo; dựa vào",
+        "zh": "根据"
+      },
+      {
+        "vi": "Dịch từ/cụm từ sau sang tiếng Trung: hiểu; tìm hiểu",
+        "zh": "了解"
+      }
+    ],
+    "fill": [
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “màu xanh lam” → ________",
+        "answer": "蓝"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “đoạn; khoảng” → ________",
+        "answer": "段"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “gần; khu vực lân cận” → ________",
+        "answer": "附近"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “đường lớn; đường phố” → ________",
+        "answer": "马路"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “bình thường; thường ngày” → ________",
+        "answer": "平时"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “tan học” → ________",
+        "answer": "放学"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “trò chơi” → ________",
+        "answer": "游戏"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “người cao tuổi” → ________",
+        "answer": "老人"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “căn cứ theo; dựa vào” → ________",
+        "answer": "根据"
+      },
+      {
+        "prompt": "Điền chữ Hán phù hợp với nghĩa: “hiểu; tìm hiểu” → ________",
+        "answer": "了解"
+      }
     ]
   },
   {
@@ -2498,20 +4898,107 @@ const HSK3_DATA = [
     "title": "我听说有的熊猫出国了",
     "status": "missing",
     "note": "Tên bài có trong mục lục, nhưng trang nội dung/từ vựng không có trong PDF đính kèm.",
-    "words": []
+    "words": [],
+    "texts": [
+      {
+        "id": 1,
+        "title": "Bài khóa 1",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 1 từ giáo trình."
+      },
+      {
+        "id": 2,
+        "title": "Bài khóa 2",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 2 từ giáo trình."
+      },
+      {
+        "id": 3,
+        "title": "Bài khóa 3",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 3 từ giáo trình."
+      },
+      {
+        "id": 4,
+        "title": "Bài khóa 4",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 4 từ giáo trình."
+      }
+    ],
+    "review": [],
+    "translate": [],
+    "fill": []
   },
   {
     "n": 17,
     "title": "我要多向认真的人学习",
     "status": "missing",
     "note": "Tên bài có trong mục lục, nhưng trang nội dung/từ vựng không có trong PDF đính kèm.",
-    "words": []
+    "words": [],
+    "texts": [
+      {
+        "id": 1,
+        "title": "Bài khóa 1",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 1 từ giáo trình."
+      },
+      {
+        "id": 2,
+        "title": "Bài khóa 2",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 2 từ giáo trình."
+      },
+      {
+        "id": 3,
+        "title": "Bài khóa 3",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 3 từ giáo trình."
+      },
+      {
+        "id": 4,
+        "title": "Bài khóa 4",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 4 từ giáo trình."
+      }
+    ],
+    "review": [],
+    "translate": [],
+    "fill": []
   },
   {
     "n": 18,
     "title": "我学会了包饺子",
     "status": "missing",
     "note": "Tên bài có trong mục lục, nhưng trang nội dung/từ vựng không có trong PDF đính kèm.",
-    "words": []
+    "words": [],
+    "texts": [
+      {
+        "id": 1,
+        "title": "Bài khóa 1",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 1 từ giáo trình."
+      },
+      {
+        "id": 2,
+        "title": "Bài khóa 2",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 2 từ giáo trình."
+      },
+      {
+        "id": 3,
+        "title": "Bài khóa 3",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 3 từ giáo trình."
+      },
+      {
+        "id": 4,
+        "title": "Bài khóa 4",
+        "content": "",
+        "note": "Thêm nội dung Bài khóa 4 từ giáo trình."
+      }
+    ],
+    "review": [],
+    "translate": [],
+    "fill": []
   }
 ];

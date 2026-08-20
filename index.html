@@ -3,77 +3,71 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>HSK 3.0 • Từ vựng 18 bài</title>
+  <title>HSK 3.0 Learning Hub</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="top">
   <div>
-    <div class="kicker">新HSK教程 3 • HSK 3.0</div>
-    <h1>Ôn tập từ vựng HSK 3</h1>
-    <p>18 bài theo giáo trình đính kèm • chữ Hán • pinyin • nghĩa Việt • nghĩa Anh trong sách</p>
+    <div class="kicker">新HSK教程3 • HSK 3.0</div>
+    <h1>HSK 3 Learning Hub</h1>
+    <p>18 bài • Từ vựng • 4 bài khóa • Ôn tập • Dịch câu • Điền từ</p>
   </div>
   <div class="stat" id="globalStat"></div>
 </header>
 
 <main>
   <section id="home" class="view active">
+    <div class="breadcrumb">HSK 3</div>
     <div class="toolbar">
-      <input id="globalSearch" placeholder="Tìm toàn bộ từ vựng: 汉字 / pinyin / tiếng Việt...">
-      <button id="clearSearch" class="ghost">Xóa tìm kiếm</button>
+      <input id="globalSearch" placeholder="Tìm từ vựng toàn bộ HSK 3...">
+      <button id="clearSearch" class="ghost">Xóa</button>
     </div>
     <div id="searchResults" class="search-results hidden"></div>
-    <h2>Chọn bài học</h2>
+
+    <div class="home-actions">
+      <button class="action-card" data-global="review"><span>🧠</span><b>Ôn tập từ vựng</b><small>Ôn theo từng bài</small></button>
+      <button class="action-card" data-global="translate"><span>✍️</span><b>Dịch câu</b><small>Việt → Trung</small></button>
+      <button class="action-card" data-global="fill"><span>🧩</span><b>Bài tập điền từ</b><small>Điền chữ Hán phù hợp</small></button>
+    </div>
+
+    <h2>Các bài HSK 3</h2>
     <div id="lessonGrid" class="lesson-grid"></div>
+
     <div class="source-note">
-      <strong>Lưu ý nguồn:</strong> Bài 1–14 được chép từ các bảng <em>生词 / New Words</em> trong PDF.
-      PDF hiện kết thúc giữa Bài 15, nên Bài 15 chỉ có dữ liệu nhìn thấy; Bài 16–18 chưa có trang từ vựng trong file.
+      <strong>Lưu ý:</strong> cấu trúc 4 bài khóa được tạo sẵn. Phần văn bản bài khóa chưa được tự điền nếu chưa được trích xuất rõ ràng từ PDF, nhằm tránh thêm nội dung không có trong giáo trình.
     </div>
   </section>
 
   <section id="lesson" class="view">
-    <button class="back" id="backBtn">← 18 bài</button>
+    <button class="back" id="backBtn">← HSK 3 / Các bài</button>
+
+    <div class="breadcrumb" id="lessonBreadcrumb"></div>
     <div class="lesson-head">
       <div>
         <div class="kicker" id="lessonNo"></div>
         <h2 id="lessonTitle"></h2>
         <div id="lessonStatus"></div>
       </div>
-      <div class="mode-tabs">
-        <button class="tab active" data-mode="list">📖 Danh sách</button>
-        <button class="tab" data-mode="cards">🃏 Flashcard</button>
-      </div>
     </div>
 
-    <div id="listMode">
-      <input id="lessonSearch" class="lesson-search" placeholder="Tìm trong bài này...">
-      <div id="wordList" class="word-list"></div>
+    <div class="module-grid">
+      <button class="module-card" data-module="vocab"><span>📖</span><b>Từ vựng</b><small>Danh sách + phát âm</small></button>
+      <button class="module-card" data-module="text1"><span>1️⃣</span><b>Bài khóa 1</b><small>课文 1</small></button>
+      <button class="module-card" data-module="text2"><span>2️⃣</span><b>Bài khóa 2</b><small>课文 2</small></button>
+      <button class="module-card" data-module="text3"><span>3️⃣</span><b>Bài khóa 3</b><small>课文 3</small></button>
+      <button class="module-card" data-module="text4"><span>4️⃣</span><b>Bài khóa 4</b><small>课文 4</small></button>
+      <button class="module-card" data-module="review"><span>🧠</span><b>Ôn tập từ vựng</b><small>Quiz nhanh</small></button>
+      <button class="module-card" data-module="translate"><span>✍️</span><b>Dịch câu</b><small>Việt → Trung</small></button>
+      <button class="module-card" data-module="fill"><span>🧩</span><b>Điền từ</b><small>Kiểm tra từ vựng</small></button>
     </div>
 
-    <div id="cardsMode" class="hidden">
-      <div class="flash-wrap">
-        <div id="flashcard" class="flashcard">
-          <div class="front">
-            <div class="counter" id="cardCounter"></div>
-            <div class="big-hanzi" id="cardHanzi"></div>
-            <div class="tap">Nhấn vào thẻ để xem nghĩa</div>
-          </div>
-          <div class="back-face hidden">
-            <div class="card-pinyin" id="cardPinyin"></div>
-            <div class="card-vi" id="cardVi"></div>
-            <div class="card-en" id="cardEn"></div>
-            <button id="speakCard" class="speak">🔊 Nghe</button>
-          </div>
-        </div>
-        <div class="card-controls">
-          <button id="prevCard">← Trước</button>
-          <button id="nextCard">Tiếp →</button>
-        </div>
-      </div>
-    </div>
+    <div id="moduleContent" class="content-card"></div>
   </section>
 </main>
-<footer>Website học từ vựng • Dữ liệu bài học dựa trên 新HSK教程3 được người dùng cung cấp.</footer>
+
+<footer>HSK 3 Learning Hub • Website tĩnh dùng được với GitHub Pages</footer>
+
 <script src="data.js"></script>
 <script src="app.js"></script>
 </body>
