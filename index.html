@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>HSK 3.0 • Từ vựng 18 bài</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div>
+    <div class="kicker">新HSK教程 3 • HSK 3.0</div>
+    <h1>Ôn tập từ vựng HSK 3</h1>
+    <p>18 bài theo giáo trình đính kèm • chữ Hán • pinyin • nghĩa Việt • nghĩa Anh trong sách</p>
+  </div>
+  <div class="stat" id="globalStat"></div>
+</header>
+
+<main>
+  <section id="home" class="view active">
+    <div class="toolbar">
+      <input id="globalSearch" placeholder="Tìm toàn bộ từ vựng: 汉字 / pinyin / tiếng Việt...">
+      <button id="clearSearch" class="ghost">Xóa tìm kiếm</button>
+    </div>
+    <div id="searchResults" class="search-results hidden"></div>
+    <h2>Chọn bài học</h2>
+    <div id="lessonGrid" class="lesson-grid"></div>
+    <div class="source-note">
+      <strong>Lưu ý nguồn:</strong> Bài 1–14 được chép từ các bảng <em>生词 / New Words</em> trong PDF.
+      PDF hiện kết thúc giữa Bài 15, nên Bài 15 chỉ có dữ liệu nhìn thấy; Bài 16–18 chưa có trang từ vựng trong file.
+    </div>
+  </section>
+
+  <section id="lesson" class="view">
+    <button class="back" id="backBtn">← 18 bài</button>
+    <div class="lesson-head">
+      <div>
+        <div class="kicker" id="lessonNo"></div>
+        <h2 id="lessonTitle"></h2>
+        <div id="lessonStatus"></div>
+      </div>
+      <div class="mode-tabs">
+        <button class="tab active" data-mode="list">📖 Danh sách</button>
+        <button class="tab" data-mode="cards">🃏 Flashcard</button>
+      </div>
+    </div>
+
+    <div id="listMode">
+      <input id="lessonSearch" class="lesson-search" placeholder="Tìm trong bài này...">
+      <div id="wordList" class="word-list"></div>
+    </div>
+
+    <div id="cardsMode" class="hidden">
+      <div class="flash-wrap">
+        <div id="flashcard" class="flashcard">
+          <div class="front">
+            <div class="counter" id="cardCounter"></div>
+            <div class="big-hanzi" id="cardHanzi"></div>
+            <div class="tap">Nhấn vào thẻ để xem nghĩa</div>
+          </div>
+          <div class="back-face hidden">
+            <div class="card-pinyin" id="cardPinyin"></div>
+            <div class="card-vi" id="cardVi"></div>
+            <div class="card-en" id="cardEn"></div>
+            <button id="speakCard" class="speak">🔊 Nghe</button>
+          </div>
+        </div>
+        <div class="card-controls">
+          <button id="prevCard">← Trước</button>
+          <button id="nextCard">Tiếp →</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>Website học từ vựng • Dữ liệu bài học dựa trên 新HSK教程3 được người dùng cung cấp.</footer>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
