@@ -3,72 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>HSK 3.0 Learning Hub</title>
-  <link rel="stylesheet" href="style-v3.css">
+  <title>HSK 3 Learning Hub v4</title>
+  <link rel="stylesheet" href="style-v4.css">
 </head>
 <body>
 <header class="top">
-  <div>
-    <div class="kicker">新HSK教程3 • HSK 3.0</div>
-    <h1>HSK 3 Learning Hub v3</h1>
-    <p>18 bài • Từ vựng • 4 bài khóa • Ôn tập • Dịch câu • Điền từ</p>
-  </div>
+  <div><div class="kicker">新HSK教程 3 • HSK 3.0</div><h1>HSK 3 Learning Hub</h1>
+  <p>18 bài • Từ vựng • 4 bài khóa • Flashcard ngữ cảnh • Dịch câu dài • Điền từ</p></div>
   <div class="stat" id="globalStat"></div>
 </header>
-
 <main>
-  <section id="home" class="view active">
-    <div class="breadcrumb">HSK 3</div>
-    <div class="toolbar">
-      <input id="globalSearch" placeholder="Tìm từ vựng toàn bộ HSK 3...">
-      <button id="clearSearch" class="ghost">Xóa</button>
-    </div>
-    <div id="searchResults" class="search-results hidden"></div>
-
-    <div class="home-actions">
-      <button class="action-card" data-global="review"><span>🧠</span><b>Ôn tập từ vựng</b><small>Ôn theo từng bài</small></button>
-      <button class="action-card" data-global="translate"><span>✍️</span><b>Dịch câu</b><small>Việt → Trung</small></button>
-      <button class="action-card" data-global="fill"><span>🧩</span><b>Bài tập điền từ</b><small>Điền chữ Hán phù hợp</small></button>
-    </div>
-
-    <h2>Các bài HSK 3</h2>
-    <div id="lessonGrid" class="lesson-grid"></div>
-
-    <div class="source-note">
-      <strong>Lưu ý:</strong> cấu trúc 4 bài khóa được tạo sẵn. Phần văn bản bài khóa chưa được tự điền nếu chưa được trích xuất rõ ràng từ PDF, nhằm tránh thêm nội dung không có trong giáo trình.
-    </div>
-  </section>
-
-  <section id="lesson" class="view">
-    <button class="back" id="backBtn">← HSK 3 / Các bài</button>
-
-    <div class="breadcrumb" id="lessonBreadcrumb"></div>
-    <div class="lesson-head">
-      <div>
-        <div class="kicker" id="lessonNo"></div>
-        <h2 id="lessonTitle"></h2>
-        <div id="lessonStatus"></div>
-      </div>
-    </div>
-
-    <div class="module-grid">
-      <button class="module-card" data-module="vocab"><span>📖</span><b>Từ vựng</b><small>Danh sách + phát âm</small></button>
-      <button class="module-card" data-module="text1"><span>1️⃣</span><b>Bài khóa 1</b><small>课文 1</small></button>
-      <button class="module-card" data-module="text2"><span>2️⃣</span><b>Bài khóa 2</b><small>课文 2</small></button>
-      <button class="module-card" data-module="text3"><span>3️⃣</span><b>Bài khóa 3</b><small>课文 3</small></button>
-      <button class="module-card" data-module="text4"><span>4️⃣</span><b>Bài khóa 4</b><small>课文 4</small></button>
-      <button class="module-card" data-module="review"><span>🧠</span><b>Ôn tập từ vựng</b><small>Quiz nhanh</small></button>
-      <button class="module-card" data-module="translate"><span>✍️</span><b>Dịch câu</b><small>Việt → Trung</small></button>
-      <button class="module-card" data-module="fill"><span>🧩</span><b>Điền từ</b><small>Kiểm tra từ vựng</small></button>
-    </div>
-
-    <div id="moduleContent" class="content-card"></div>
-  </section>
+<section id="home" class="view active">
+  <div class="breadcrumb">HSK 3</div>
+  <div class="toolbar"><input id="globalSearch" placeholder="Tìm chữ Hán, pinyin hoặc nghĩa tiếng Việt..."><button id="clearSearch" class="ghost">Xóa</button></div>
+  <div id="searchResults" class="search-results hidden"></div>
+  <h2>Các bài HSK 3</h2><div id="lessonGrid" class="lesson-grid"></div>
+  <div class="source-note"><b>Nguồn:</b> Bài khóa được chép theo PDF giáo trình đính kèm. Tệp hiện kết thúc trong Bài 15, vì vậy Bài 16–18 không được tự tạo nội dung.</div>
+</section>
+<section id="lesson" class="view">
+  <button class="back" id="backBtn">← HSK 3 / Các bài</button>
+  <div class="breadcrumb" id="lessonBreadcrumb"></div>
+  <div class="lesson-head"><div><div class="kicker" id="lessonNo"></div><h2 id="lessonTitle"></h2><div id="lessonStatus"></div></div></div>
+  <div class="module-grid">
+    <button class="module-card" data-module="vocab"><span>📖</span><b>Từ vựng</b><small>Danh sách + phát âm</small></button>
+    <button class="module-card" data-module="text1"><span>1️⃣</span><b>Bài khóa 1</b><small>课文 1</small></button>
+    <button class="module-card" data-module="text2"><span>2️⃣</span><b>Bài khóa 2</b><small>课文 2</small></button>
+    <button class="module-card" data-module="text3"><span>3️⃣</span><b>Bài khóa 3</b><small>课文 3</small></button>
+    <button class="module-card" data-module="text4"><span>4️⃣</span><b>Bài khóa 4</b><small>课文 4</small></button>
+    <button class="module-card" data-module="review"><span>🃏</span><b>Ôn tập từ vựng</b><small>Flashcard điền từ</small></button>
+    <button class="module-card" data-module="translate"><span>✍️</span><b>Dịch câu</b><small>Câu dài Việt → Trung</small></button>
+    <button class="module-card" data-module="fill"><span>🧩</span><b>Điền từ</b><small>10 từ / bài khóa</small></button>
+  </div>
+  <div id="moduleContent" class="content-card"></div>
+</section>
 </main>
-
-<footer>HSK 3 Learning Hub v3 • Website tĩnh dùng được với GitHub Pages</footer>
-
-<script src="data-v3.js"></script>
-<script src="app-v3.js"></script>
-</body>
-</html>
+<footer>HSK 3 Learning Hub v4 • GitHub Pages</footer>
+<script src="data-v4.js"></script><script src="app-v4.js"></script>
+</body></html>
