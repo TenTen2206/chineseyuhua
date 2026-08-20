@@ -1,31 +1,20 @@
-# YuHua Chinese — HSK Learning Hub v19
+# YuHua Chinese — HSK Learning Hub v20
 
-Trang chủ mới gồm 3 mục chính:
+Trang chủ đã thay 3 ô chức năng bằng hình chibi dễ thương.
 
+Bên dưới mỗi hình chỉ có đúng tên:
 1. Thông tin giáo viên
 2. Thông tin lớp học
 3. Ôn tập bài học
 
-Khi bấm **Ôn tập bài học**, website mới hiển thị:
-- HSK 1
-- HSK 2
-- HSK 3
-- HSK 4
-- HSK 5
-- HSK 6
-
-HSK 3 giữ nguyên toàn bộ bài học và bài tập trước đó.
+Khi bấm Ôn tập bài học, HSK 1–HSK 6 vẫn hiện như bản trước.
 
 ## File upload GitHub
 - index.html
 - style-v4.css
 - data-v4.js
-- app-v19.js
+- app-v20.js
 - hero-yuhua.png
-
-## Chỉnh nội dung giáo viên/lớp học
-Có thể chỉnh trực tiếp các hàm:
-- renderHomeTeacher()
-- renderHomeClass()
-
-trong file app-v19.js.
+- chibi-teacher.png
+- chibi-class.png
+- chibi-review.png
